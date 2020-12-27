@@ -18,7 +18,6 @@ app.get("/instructors", (req, res) => {
 
 app.get("/program", (req, res) => {
     res.redirect("/program/overview")
-    console.log("what is happening");
 })
 
 app.get("/program/overview", (req, res) => {

@@ -1,7 +1,54 @@
 html, body {
     margin: auto 0;
+    color: #dddddd;
+}
+/* ---------------NAV--------------- */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-nav {
-    
+.navbar {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.nav-item {
+    padding: 0 20px;
+    /* margin: 15px; */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ----------------DROPDOWN----------------- */
+
+.dropdown-menu {
+    list-style-type: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.dropdown-toggle:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+}
+
+.dropdown-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.testing {
+    height: 150vh;
+    /* background-color: #222222; */
 }
