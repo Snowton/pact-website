@@ -17,10 +17,11 @@ app.get("/instructors", (req, res) => {
 })
 
 app.get("/program", (req, res) => {
-    res.render("program/faq")
+    res.redirect("/program/overview")
+    console.log("what is happening");
 })
 
-app.get("program/overview", (req, res) => {
+app.get("/program/overview", (req, res) => {
     res.render("program/overview")
 })
 
