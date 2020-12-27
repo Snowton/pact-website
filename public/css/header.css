@@ -1,9 +1,93 @@
-header {
-    padding: 25px 50px;
-    font-size: 3rem;
+.container {
+    background-color: #fcfcfc;
+    padding: 50px
+    /* text-align: center; */
 }
 
-.gradient {
+header {
+    padding: 25px 50px 50px 200px;
+    font-size: 3rem;
+    /* background-image: linear-gradient(black 50%, orange); */
+}
+/* 
+.grad {
+    background-image: linear-gradient(black, orange);
+    height: 100px;
+} */
+
+/* hr {
+    margin: 0;
+    border-width: 4px;
+    border-color: black;
+    border-style: dotted 2px;
+    max-width: 50%;
+    border: 0;
+    height: 0; 
+    border-bottom: 0;
+} */
+
+.group-i, .year-round, .group-ii {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 50px 20px 50px;
+
+    color: #eeeeee;
+    width: 60%;
+    margin: 50px auto;
+    /* box-shadow: 0 0 200px 0 orange;  */
+    background: #eb01a5;
+    /* fallback */ 
+    background-size: cover;
+}
+
+.group-i {
+    background-image: url("/img/group_i.jpg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73) 300px), url('/img/group_i.jpg');
+}
+
+.year-round {
+    background-image: url("/img/year_round.jpg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73) 300px), url('/img/year_round.jpg');
+}
+
+.group-ii {
+    background-image: url("/img/group_ii.jpg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73) 300px), url('/img/group_ii.jpg');
+}
+
+section div {
+    margin-top: 300px;
+}
+
+img {
+    /* align-self: center; */
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+}
+/* 
+.year-round{
+    text-align: right;
+} */
+
+/* .year-round img {
+    width: 30%;
+    min-width: 200px;
+    float: left;
+    padding: 25px;
+    padding-top: 0;
+} */
+
+@media only screen and (max-width: 600px) {
+    img {
+        float: none;
+    }
+}
+
+/* COOL GRADIENT TRANSITION */
+
+/* .gradient {
     position: relative;
     background-image: linear-gradient(
       to right,
@@ -32,4 +116,4 @@ header {
   
   .gradient:hover::before {
     opacity: 1;
-  }
+  } */
