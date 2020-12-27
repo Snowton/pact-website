@@ -2,6 +2,7 @@ html, body {
     margin: auto 0;
     color: #dddddd;
     font-family: sans-serif;
+    background-color: black;
 }
 /* ---------------NAV--------------- */
 nav {
@@ -43,7 +44,7 @@ nav {
     text-decoration: none;
     font-size: 1.4rem;
     color: #dddddd;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 /* ----------------DROPDOWN----------------- */
@@ -85,7 +86,14 @@ nav {
     background-color: #dddddd;
 }
 
-.testing {
-    height: 150vh;
-    /* background-color: #222222; */
+.spacer {
+    height: 40px;
+}
+
+/* ------------------FOOTER------------------- */
+
+footer {
+    padding: 40px;
+    text-align: center;
+    background-color: black;
 }
