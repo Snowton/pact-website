@@ -24,7 +24,7 @@ app.get("/program/overview", (req, res) => {
     res.render("program/overview")
 })
 
-app.get("program/logistics", (req, res) => {
+app.get("/program/logistics", (req, res) => {
     res.render("program/logistics")
 })
 
