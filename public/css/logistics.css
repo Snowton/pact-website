@@ -1,5 +1,24 @@
 .logs {
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     color: #444444;
     flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.logs h2 {
+    font-size: 1.5rem;
+}
+
+.logs div {
+    flex-grow: 1;
+    width: 20%;
+    min-width: 200px;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid #444444;
 }
