@@ -50,6 +50,6 @@
     transition: all 0.4s;
 }
 
-.toggle:hover strong {
+.toggle:hover strong, .active strong {
     color: #fefefe;
 }

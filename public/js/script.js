@@ -1,7 +1,6 @@
 const tog = document.getElementsByClassName("toggle");
 let i;
 
-
 for (i = 0; i < tog.length; i++) {
   tog[i].addEventListener("click", function() {
     this.classList.toggle("active");
