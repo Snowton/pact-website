@@ -1,6 +1,10 @@
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+
 const express = require("express")
 const bodyParser = require("body-parser")
 const ejs = require("ejs")
+import faq from "./FAQ.js"
 
 const app = express()
 
@@ -29,7 +33,7 @@ app.get("/program/logistics", (req, res) => {
 })
 
 app.get("/program/faq", (req, res) => {
-    res.render("program/faq")
+    res.render("program/faq", {faq: faq})
 })
 
 app.get("/application", (req, res) => {
