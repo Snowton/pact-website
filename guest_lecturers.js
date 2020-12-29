@@ -9,7 +9,7 @@ const lecturers = [
     [
     ['http://www.upenn.ed', 'University of Pennsylvania'],
     ],
-    'Lovász Local Lemma']
+    'Lovász Local Lemma'],
     [
     ['Glenn Sun',
     ],
@@ -19,7 +19,7 @@ const lecturers = [
     [
     ['http://www.ucla.ed', 'University of California, Los Angeles'],
     ],
-    'Matrix Multiplication Verification, Polynomial Multiplication Verification, Polynomial Identity Verification, Complexity Classes for Randomized Algorithms']
+    'Matrix Multiplication Verification, Polynomial Multiplication Verification, Polynomial Identity Verification, Complexity Classes for Randomized Algorithms'],
     [
     ['Jakob Degen',
     ],
@@ -29,7 +29,7 @@ const lecturers = [
     [
     ['https://www.rutgers.ed', 'Rutgers University'],
     ],
-    'Communication Complexity']
+    'Communication Complexity'],
     [
     ['Anindya De',
     'https://www.seas.upenn.edu/~anindyad/'
@@ -40,7 +40,7 @@ const lecturers = [
     [
     ['https://www.upenn.ed', 'University of Pennsylvania'],
     ],
-    'Voting Theory, Fourier Analysis of Boolean Functions']
+    'Voting Theory, Fourier Analysis of Boolean Functions'],
     [
     ['William Brown',
     'https://wibrown.github.io/'
@@ -51,7 +51,7 @@ const lecturers = [
     [
     ['https://www.columbia.ed', 'Columbia University'],
     ],
-    'Differential Privacy']
+    'Differential Privacy'],
     [
     ['Aaron Bernstein',
     'https://aaronbernstein.cs.rutgers.edu/'
@@ -62,7 +62,7 @@ const lecturers = [
     [
     ['https://www.rutgers.ed', 'Rutgers University'],
     ],
-    'Spanners']
+    'Spanners'],
     [
     ['Jelani Nelson',
     'https://people.eecs.berkeley.edu/~minilek/'
@@ -73,7 +73,7 @@ const lecturers = [
     [
     ['https://www.berkeley.ed', 'University of California, Berkeley'],
     ],
-    'Streaming Algorithms']
+    'Streaming Algorithms'],
     [
     ['Ben Edelman',
     'http://benjaminedelman.com/'
@@ -84,7 +84,7 @@ const lecturers = [
     [
     ['https://www.harvard.ed', 'Harvard University'],
     ],
-    'Sensitivity Conjecture']
+    'Sensitivity Conjecture'],
     [
     ['Sanjeev Khanna',
     'https://www.cis.upenn.edu/~sanjeev/'
@@ -95,7 +95,7 @@ const lecturers = [
     [
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Markov Chains and Random Walks']
+    'Markov Chains and Random Walks'],
     [
     ['Chandra Chekuri',
     'http://chekuri.cs.illinois.edu/'
@@ -106,7 +106,7 @@ const lecturers = [
     [
     ['http://www.illinois.edu', 'University of Illinois, Urbana-Champaign'],
     ],
-    'Packing and Covering Problems, Randomized Rounding']
+    'Packing and Covering Problems, Randomized Rounding'],
     [
     ['David Williamson',
     'http://www.davidpwilliamson.net/work'
@@ -117,7 +117,7 @@ const lecturers = [
     [
     ['http://www.cornell.ed', 'Cornell University'],
     ],
-    'Minimum Cut, Multiplicative Weights, EkSAT, and Maximum Cut']
+    'Minimum Cut, Multiplicative Weights, EkSAT, and Maximum Cut'],
     [
     ['Matt Weinberg',
     'https://www.cs.princeton.edu/~smattw/'
@@ -128,7 +128,7 @@ const lecturers = [
     [
     ['https://www.princeton.edu', 'Princeton University'],
     ],
-    'Job Scheduling on Unrelated Machines']
+    'Job Scheduling on Unrelated Machines'],
     [
     ['Ezra Edelman',
     ],
@@ -138,7 +138,7 @@ const lecturers = [
     [
     ['https://www.princeton.edu', 'Princeton University'],
     ],
-    'IP and ♯P Complexity Classes, ♯SAT']
+    'IP and ♯P Complexity Classes, ♯SAT'],
     [
     ['Sepehr Assadi',
     'https://www.seas.upenn.edu/~sassadi/'
@@ -149,7 +149,7 @@ const lecturers = [
     [
     ['http://www.princeton.edu', 'Princeton University'],
     ],
-    'Sublinear Algorithms for Graph Coloring']
+    'Sublinear Algorithms for Graph Coloring'],
     [
     ['Joel Spencer',
     'https://cs.nyu.edu/spencer/'
@@ -160,7 +160,7 @@ const lecturers = [
     [
     ['http://www.nyu.edu', 'New York University'],
     ],
-    'Unicyclic Graphs and Algorithmic Lovász Local Lemma']
+    'Unicyclic Graphs and Algorithmic Lovász Local Lemma'],
     [
     ['Keaton Naff',
     'https://www.math.columbia.edu/~knaff/'
@@ -171,7 +171,7 @@ const lecturers = [
     [
     ['http://www.columbia.edu', 'Columbia University'],
     ],
-    'Optimal Transport Problem']
+    'Optimal Transport Problem'],
     [
     ['Margaret Li',
     ],
@@ -181,7 +181,7 @@ const lecturers = [
     [
     ['https://research.fb.com/category/facebook-ai-research', 'Facebook AI Research'],
     ],
-    'Reinforcement Learning']
+    'Reinforcement Learning'],
     [
     ['Alex Lin',
     ],
@@ -191,8 +191,8 @@ const lecturers = [
     [
     ['http://www.harvard.edu', 'Harvard University'],
     ],
-    'Machine Learning']
-    ]]
+    'Machine Learning'],
+    ]],
     ['Summer 2018', [
     [
     ['David Williamson',
@@ -204,7 +204,7 @@ const lecturers = [
     [
     ['http://www.cornell.ed', 'Cornell University'],
     ],
-    'Submodular Function Maximization, TSP, Max-SAT, and Max-Cut']
+    'Submodular Function Maximization, TSP, Max-SAT, and Max-Cut'],
     [
     ['Ben Edelman',
     'http://benjaminedelman.com/'
@@ -215,7 +215,7 @@ const lecturers = [
     [
     ['http://www.harvard.ed', 'Harvard University'],
     ],
-    'Tree Metrics']
+    'Tree Metrics'],
     [
     ['Sepehr Assadi',
     'https://www.seas.upenn.edu/~sassadi/'
@@ -226,7 +226,7 @@ const lecturers = [
     [
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Communication Complexity']
+    'Communication Complexity'],
     [
     ['Matt Weinberg',
     'https://www.cs.princeton.edu/~smattw/'
@@ -237,7 +237,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Prophet Inequalities']
+    'Prophet Inequalities'],
     [
     ['Sanjeev Khanna',
     'https://www.cis.upenn.edu/~sanjeev/'
@@ -248,7 +248,7 @@ const lecturers = [
     [
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Edge Disjoint Paths']
+    'Edge Disjoint Paths'],
     [
     ['Zeev Dvir',
     'http://www.cs.princeton.edu/~zdvir/'
@@ -259,7 +259,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Private Information Retrieval']
+    'Private Information Retrieval'],
     [
     ['Pravesh Kothari',
     'http://www.cs.princeton.edu/~kothari/'
@@ -270,7 +270,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Quantum Computing']
+    'Quantum Computing'],
     [
     ['Arvind Narayanan',
     'http://randomwalker.info/'
@@ -281,7 +281,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Modern Cryptography']
+    'Modern Cryptography'],
     [
     ['Prathamesh Patil ',
     ],
@@ -291,7 +291,7 @@ const lecturers = [
     [
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Secretary Problems']
+    'Secretary Problems'],
     [
     ['Nishita Jain',
     ],
@@ -301,8 +301,8 @@ const lecturers = [
     [
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Blockchain']
-    ]]
+    'Blockchain'],
+    ]],
     ['Summer 2017', [
     [
     ['Hrishikesh Khandeparkar',
@@ -313,7 +313,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'High Dimensional Geometry and the Multiplicative Weights Method']
+    'High Dimensional Geometry and the Multiplicative Weights Method'],
     [
     ['Matt Weinberg ',
     'https://www.cs.princeton.edu/~smattw/'
@@ -325,7 +325,7 @@ const lecturers = [
     ['http://www.princeton.ed', 'Princeton University'],
     ['http://www.cs.princeton.edu', 'Department of Computer Science'],
     ],
-    'Secretary Problems']
+    'Secretary Problems'],
     [
     ['Margaret Li',
     ],
@@ -335,7 +335,7 @@ const lecturers = [
     [
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Zero-Knowledge Proofs']
+    'Zero-Knowledge Proofs'],
     [
     ['Sanjeev Khanna',
     'https://www.cis.upenn.edu/~sanjeev/'
@@ -347,7 +347,7 @@ const lecturers = [
     ['http://www.cis.upenn.edu', 'Computer and Information Science'],
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Random Walks, LP-rounding']
+    'Random Walks, LP-rounding'],
     [
     ['Aravind Srinivasan',
     'http://www.cs.umd.edu/~srin/'
@@ -359,7 +359,7 @@ const lecturers = [
     ['http://www.cs.umd.edu', 'Department of Computer Science'],
     ['http://www.umd.edu', 'University of Maryland, College Park'],
     ],
-    'Lovász Local Lemma']
+    'Lovász Local Lemma'],
     [
     ['Ben Edelman',
     'http://benjaminedelman.com/'
@@ -370,7 +370,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Introduction to Coding Theory, Tree Metrics']
+    'Introduction to Coding Theory, Tree Metrics'],
     [
     ['Shreyas Pai',
     ],
@@ -380,7 +380,7 @@ const lecturers = [
     [
     ['https://uiowa.edu', 'University of Iowa'],
     ],
-    'Distributed Algorithms (MIS and 3-Coloring Directed Rooted Trees)']
+    'Distributed Algorithms (MIS and 3-Coloring Directed Rooted Trees)'],
     [
     ['Viswanath Nagarajan',
     'https://viswa.engin.umich.edu/'
@@ -392,7 +392,7 @@ const lecturers = [
     ['https://www.umich.edu', 'University of Michigan'],
     ['https://ioe.engin.umich.edu', 'Industrial &amp; Operations Engineering Department'],
     ],
-    'Stochastic Optimizations']
+    'Stochastic Optimizations'],
     [
     ['Sriram Pemmaraju',
     'http://homepage.cs.uiowa.edu/~sriram/'
@@ -403,8 +403,8 @@ const lecturers = [
     [
     ['https://uiowa.edu', 'University of Iowa'],
     ],
-    'Graph Sketches']
-    ]]
+    'Graph Sketches'],
+    ]],
     ['Summer 2016', [
     [
     ['David Williamson',
@@ -419,7 +419,7 @@ const lecturers = [
     ['http://www.Cornell.edu', 'Cornell University'],
     ['http://www.designofapproxalgs.com', 'The Design of Approximation Algorithms'],
     ],
-    'Submodular Maximization']
+    'Submodular Maximization'],
     [
     ['Zeev Dvir',
     'http://www.cs.princeton.edu/%7Ezdvir/'
@@ -432,7 +432,7 @@ const lecturers = [
     ['http://www.math.princeton.ed', 'Department of Mathematics'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Incidence Theorems']
+    'Incidence Theorems'],
     [
     ['Lisa Zhang',
     'https://www.bell-labs.com/about/researcher-profiles/lisa-zhang/'
@@ -441,8 +441,9 @@ const lecturers = [
     'Researcher',
     ],
     [
+    ['http://ect.bell-labs.com/mnc', 'Mathematics of Networks and Systems Research Department'],
     ],
-    '<a title="Mathematics of Networks and Systems Research Department" href="http://ect.bell-labs.com/mnc/">Mathematics of Net']
+    'Minimum Inconsistency'],
     [
     ['Ricson Cheng',
     ],
@@ -452,7 +453,7 @@ const lecturers = [
     [
     ['http://www.cmu.edu', 'Carnegie Mellon University'],
     ],
-    'Reconciliation Clustering']
+    'Reconciliation Clustering'],
     [
     ['Arvind Narayanan',
     'https://www.cs.princeton.edu/sites/all/modules/custom/cs_people/generate_thumbnail.php?id=1653&amp;thumb='
@@ -464,7 +465,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Cryptography']
+    'Cryptography'],
     [
     ['Hoon Oh',
     ],
@@ -474,7 +475,7 @@ const lecturers = [
     [
     ['http://www.rutgers.edu', 'Rutgers University'],
     ],
-    'Algorithmic Game Theory']
+    'Algorithmic Game Theory'],
     [
     ['Sanjeev Khanna',
     'http://www.cis.upenn.edu/~sanjeev/'
@@ -486,7 +487,7 @@ const lecturers = [
     ['http://www.cis.upenn.edu', 'Computer and Information Science'],
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Fingerprinting and Sublinear Algorithms']
+    'Fingerprinting and Sublinear Algorithms'],
     [
     ['Sampath Kannan',
     'https://www.cis.upenn.edu/~kannan/'
@@ -497,7 +498,7 @@ const lecturers = [
     [
     ['http://www.upenn.ed', 'University of Pennsylvania'],
     ],
-    'Turing Machines']
+    'Turing Machines'],
     [
     ['Sanjeev Arora',
     'https://www.cs.princeton.edu/~arora/'
@@ -509,7 +510,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Decision Theory']
+    'Decision Theory'],
     [
     ['Olenka Jain',
     ],
@@ -519,7 +520,7 @@ const lecturers = [
     [
     ['http://www.harvard.ed', 'Harvard University'],
     ],
-    'PTAS For Scheduling with Parallel Machines']
+    'PTAS For Scheduling with Parallel Machines'],
     [
     ['Hrishikesh Khandeparkar',
     ],
@@ -529,7 +530,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Fibonacci Heaps']
+    'Fibonacci Heaps'],
     [
     ['Ben Edelman',
     'http://benjaminedelman.com/'
@@ -540,7 +541,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Tree Metrics']
+    'Tree Metrics'],
     [
     ['Alex Lin',
     ],
@@ -550,8 +551,8 @@ const lecturers = [
     [
     ['http://www.harvard.ed', 'Harvard University'],
     ],
-    'Local Search Algorithms']
-    ]]
+    'Local Search Algorithms'],
+    ]],
     ['Summer 2015', [
     [
     ['Daniel Hsu',
@@ -565,7 +566,7 @@ const lecturers = [
     ['http://datascience.columbia.edu', 'Data Science Institute'],
     ['http://www.columbia.edu', 'Columbia University'],
     ],
-    'High Dimensional Geometry']
+    'High Dimensional Geometry'],
     [
     ['Yingyu Liang',
     'http://pages.cs.wisc.edu/~yliang/'
@@ -577,7 +578,7 @@ const lecturers = [
     ['https://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Clustering']
+    'Clustering'],
     [
     ['David Williamson',
     'http://www.davidpwilliamson.net/work'
@@ -591,7 +592,7 @@ const lecturers = [
     ['http://www.Cornell.edu', 'Cornell University'],
     ['http://www.designofapproxalgs.com', 'The Design of Approximation Algorithms'],
     ],
-    'Submodular Maximization']
+    'Submodular Maximization'],
     [
     ['Pranjal Awasthi',
     'https://www.cs.rutgers.edu/~pa336/'
@@ -603,7 +604,7 @@ const lecturers = [
     ['https://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Machine Learning']
+    'Machine Learning'],
     [
     ['Aaditya Ramdas',
     'http://www.stat.cmu.edu/~aramdas/'
@@ -615,7 +616,7 @@ const lecturers = [
     ['http://www.cs.berkeley.edu', 'Department of Computer Science'],
     ['http://www.berkeley.edu', 'University of California, Berkeley'],
     ],
-    'Singular Value Decomposition']
+    'Singular Value Decomposition'],
     [
     ['David Jacobowitz',
     ],
@@ -625,7 +626,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Mathematics and Computer Science: Revolutionizing Biology and Medicine']
+    'Mathematics and Computer Science: Revolutionizing Biology and Medicine'],
     [
     ['Varun Prabhakar',
     ],
@@ -635,7 +636,7 @@ const lecturers = [
     [
     ['http://www.upenn.ed', 'University of Pennsylvania'],
     ],
-    'The Probabilistic Method']
+    'The Probabilistic Method'],
     [
     ['Rakesh Vohra',
     'https://sites.google.com/site/quaerereverum9/'
@@ -648,7 +649,7 @@ const lecturers = [
     ['http://www.cis.upenn.edu/index.ph', 'Department of Computer and Information Science '],
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Linear Programming']
+    'Linear Programming'],
     [
     ['Samir Khuller',
     'http://www.cs.umd.edu/~samir/'
@@ -660,7 +661,7 @@ const lecturers = [
     ['https://www.cs.umd.edu/', 'School of Computer Science'],
     ['http://www.umd.edu', 'University of Maryland'],
     ],
-    'Scheduling']
+    'Scheduling'],
     [
     ['Michael Dinitz',
     'http://www.cs.jhu.edu/~mdinitz/'
@@ -672,7 +673,7 @@ const lecturers = [
     ['http://www.cs.jhu.edu', 'Department of Computer Science'],
     ['http://www.jhu.edu', 'Johns Hopkins University'],
     ],
-    'Spanners']
+    'Spanners'],
     [
     ['Po-Ling Loh',
     'https://homepages.cae.wisc.edu/~loh/index.html'
@@ -685,7 +686,7 @@ const lecturers = [
     ['https://www.wharton.upenn.edu', 'Wharton School'],
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Graphical Models']
+    'Graphical Models'],
     [
     ['Samory Kpotufe',
     'http://www.princeton.edu/~samory/'
@@ -697,7 +698,7 @@ const lecturers = [
     ['http://orfe.princeton.edu', 'Operations Research &amp; Financial Engineering'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Fast Search Algorithms']
+    'Fast Search Algorithms'],
     [
     ['Sanjeev Arora',
     'http://www.cs.princeton.edu/~arora/'
@@ -709,7 +710,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Semantic Vectors']
+    'Semantic Vectors'],
     [
     ['Alex Lin',
     ],
@@ -719,7 +720,7 @@ const lecturers = [
     [
     ['http://www.harvard.ed', 'Harvard University'],
     ],
-    'Steiner Tree-Related Problems, Local Search Algorithms, Polynomial-Time Approximation Schemes']
+    'Steiner Tree-Related Problems, Local Search Algorithms, Polynomial-Time Approximation Schemes'],
     [
     ['Ben Edelman',
     'http://benjaminedelman.com/'
@@ -730,8 +731,8 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Tree Metrics']
-    ]]
+    'Tree Metrics'],
+    ]],
     ['Summer 2014', [
     [
     ['Mark Braverman',
@@ -745,7 +746,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Interactive Proofs']
+    'Interactive Proofs'],
     [
     ['Zeev Dvir',
     'http://www.cs.princeton.edu/%7Ezdvir/'
@@ -758,7 +759,7 @@ const lecturers = [
     ['http://www.math.princeton.ed', 'Department of Mathematics'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Incidence Theorems']
+    'Incidence Theorems'],
     [
     ['David Jacobowitz',
     ],
@@ -768,7 +769,7 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Mathematics and Computer Science: Revolutionizing Biology and Medicine']
+    'Mathematics and Computer Science: Revolutionizing Biology and Medicine'],
     [
     ['Sanjeev Khanna',
     'http://www.cis.upenn.edu/~sanjeev/'
@@ -780,7 +781,7 @@ const lecturers = [
     ['http://www.cis.upenn.edu', 'Computer and Information Science'],
     ['http://www.upenn.edu', 'University of Pennsylvania'],
     ],
-    'Fingerprinting and PCP Theorem']
+    'Fingerprinting and PCP Theorem'],
     [
     ['Michael Saks',
     '"Rutgers University" href="http://www.math.rutgers.edu/~saks/'
@@ -792,7 +793,7 @@ const lecturers = [
     ['http://www.math.rutgers.ed', 'Department of Mathematics'],
     ['http://www.rutgers.edu', 'Rutgers University'],
     ],
-    'Coloring Planar Graphs']
+    'Coloring Planar Graphs'],
     [
     ['Aravind Srinivasan',
     'http://www.cs.umd.edu/~srin/'
@@ -806,7 +807,7 @@ const lecturers = [
     ['http://www.amsc.umd.edu', 'Applied Mathematics &amp; Statistics, and Scientific Computation Program'],
     ['http://www.umd.edu', 'University of Maryland, College Park'],
     ],
-    'Lovász Local Lemma']
+    'Lovász Local Lemma'],
     [
     ['Zhongxia (Ricky) Zhao',
     ],
@@ -816,8 +817,8 @@ const lecturers = [
     [
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Game Theory']
-    ]]
+    'Game Theory'],
+    ]],
     ['Summer 2013', [
     [
     ['Emmanuel Abbe',
@@ -831,7 +832,7 @@ const lecturers = [
     ['http://www.princeton.edu/ee', 'Department of Electrical Engineering'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Coding Theory']
+    'Coding Theory'],
     [
     ['Eric Allender',
     'http://www.cs.rutgers.edu/~allender/'
@@ -843,7 +844,7 @@ const lecturers = [
     ['http://www.cs.rutgers.ed', 'Department of Computer Science'],
     ['http://www.rutgers.ed', 'Rutgers University'],
     ],
-    'Complexity and Randomness']
+    'Complexity and Randomness'],
     [
     ['Amey Bhangale',
     'https://sites.google.com/view/amey-bhangale/home'
@@ -855,7 +856,7 @@ const lecturers = [
     ['http://www.cs.rutgers.ed', 'Department of Computer Science'],
     ['http://www.rutgers.ed', 'Rutgers University'],
     ],
-    'Arithmetic Circuit Complexity']
+    'Arithmetic Circuit Complexity'],
     [
     ['Mark Braverman',
     'http://www.cs.princeton.edu/~mbraverm/pmwiki/index.php?n=Site.Main?setview=display'
@@ -868,7 +869,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Probabilistic Method']
+    'Probabilistic Method'],
     [
     ['Zeev Dvir',
     'http://www.cs.princeton.edu/%7Ezdvir/'
@@ -881,7 +882,7 @@ const lecturers = [
     ['http://www.math.princeton.ed', 'Department of Mathematics'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Cryptography']
+    'Cryptography'],
     [
     ['Samir Khuller',
     'http://www.cs.umd.edu/~samir/'
@@ -893,7 +894,7 @@ const lecturers = [
     ['https://www.cs.umd.edu/', 'School of Computer Science'],
     ['http://www.umd.edu', 'University of Maryland'],
     ],
-    'Primal-Dual Algorithms for Vertex Cover']
+    'Primal-Dual Algorithms for Vertex Cover'],
     [
     ['David Williamson',
     'http://www.davidpwilliamson.net/work'
@@ -907,8 +908,8 @@ const lecturers = [
     ['http://www.Cornell.edu', 'Cornell University'],
     ['http://www.designofapproxalgs.com', 'The Design of Approximation Algorithms'],
     ],
-    'Advanced Topics in Approximation Algorithms']
-    ]]
+    'Advanced Topics in Approximation Algorithms'],
+    ]],
     ['Summer 2012', [
     [
     ['Monica Babes-Vroman',
@@ -921,7 +922,7 @@ const lecturers = [
     ['http://www.cs.rutgers.ed', 'Department of Computer Science'],
     ['http://www.rutgers.ed', 'Rutgers University'],
     ],
-    'Huffman Encoding']
+    'Huffman Encoding'],
     [
     ['Arnab Bhattacharyya',
     'https://www.comp.nus.edu.sg/~arnab/index.html'
@@ -933,7 +934,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Sub-Linear Algorithms']
+    'Sub-Linear Algorithms'],
     [
     ['Mark Braverman',
     'http://www.cs.princeton.edu/~mbraverm/pmwiki/index.php?n=Site.Main?setview=display'
@@ -945,7 +946,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Probabilistic Method']
+    'Probabilistic Method'],
     [
     ['Zeev Dvir',
     'http://www.cs.princeton.edu/%7Ezdvir/'
@@ -958,7 +959,7 @@ const lecturers = [
     ['http://www.math.princeton.ed', 'Department of Mathematics'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Incidence Theorems']
+    'Incidence Theorems'],
     [
     ['Swastik Kopparty',
     'http://www.math.rutgers.edu/~sk1233/'
@@ -971,7 +972,7 @@ const lecturers = [
     ['http://www.cs.rutgers.ed', 'Department of Computer Science'],
     ['http://www.rutgers.ed', 'Rutgers University'],
     ],
-    'Secure Multiparty Computation and Secret Sharing']
+    'Secure Multiparty Computation and Secret Sharing'],
     [
     ['Shachar Lovett',
     'https://cseweb.ucsd.edu/~slovett/home.html'
@@ -983,7 +984,7 @@ const lecturers = [
     ['http://www.math.ias.edu', 'School of Mathematics'],
     ['http://www.ias.edu', 'Institute for Advanced Study'],
     ],
-    'Coding Theory']
+    'Coding Theory'],
     [
     ['Ankur Moitra',
     'http://people.csail.mit.edu/moitra/'
@@ -995,7 +996,7 @@ const lecturers = [
     ['http://www.math.ias.edu', 'School of Mathematics'],
     ['http://www.ias.ed', 'Institute for Advanced Study'],
     ],
-    'Zero-Sum Games in Combinatorial Optimization']
+    'Zero-Sum Games in Combinatorial Optimization'],
     [
     ['Michael Saks',
     '"Rutgers University" href="http://www.math.rutgers.edu/~saks/'
@@ -1007,8 +1008,8 @@ const lecturers = [
     ['http://www.math.rutgers.ed', 'Department of Mathematics'],
     ['http://www.rutgers.edu', 'Rutgers University'],
     ],
-    'Coloring Planar Graphs']
-    ]]
+    'Coloring Planar Graphs'],
+    ]],
     ['Summer 2011', [
     [
     ['Sanjeev Arora',
@@ -1021,7 +1022,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'A Polynomial Time Approximation Scheme for the Euclidean Traveling Salesperson Problem']
+    'A Polynomial Time Approximation Scheme for the Euclidean Traveling Salesperson Problem'],
     [
     ['Moses Charikar',
     'https://profiles.stanford.edu/moses-charikar'
@@ -1033,7 +1034,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Streaming Algorithms']
+    'Streaming Algorithms'],
     [
     ['Bernard Chazelle',
     'http://www.cs.princeton.edu/%7Echazelle/'
@@ -1046,7 +1047,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Computational Geometry']
+    'Computational Geometry'],
     [
     ['Zeev Dvir',
     'http://www.cs.princeton.edu/%7Ezdvir/'
@@ -1059,7 +1060,7 @@ const lecturers = [
     ['http://www.math.princeton.ed', 'Department of Mathematics'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Cryptography']
+    'Cryptography'],
     [
     ['Subhash Khot',
     'http://cs.nyu.edu/%7Ekhot/'
@@ -1072,7 +1073,7 @@ const lecturers = [
     ['http://www.cims.nyu.edu', 'Courant Institute of Mathematical Sciences'],
     ['http://www.nyu.edu', 'New York University'],
     ],
-    'Hardness of Approximation Results and the PCP Theorem']
+    'Hardness of Approximation Results and the PCP Theorem'],
     [
     ['Ofer Neiman',
     'https://www.cs.bgu.ac.il/~neimano/'
@@ -1084,7 +1085,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Metric Embeddings for Graphs']
+    'Metric Embeddings for Graphs'],
     [
     ['Ajay Roopakalu',
     'http://jrupac.wordpress.com/'
@@ -1096,7 +1097,7 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Quantum Computation and Semidefinite Programming']
+    'Quantum Computation and Semidefinite Programming'],
     [
     ['Nikhil Srivastava',
     'https://math.berkeley.edu/~nikhil/'
@@ -1108,7 +1109,7 @@ const lecturers = [
     ['http://www.math.ias.edu', 'School of Mathematics'],
     ['http://www.ias.edu', 'Institute for Advanced Study'],
     ],
-    'Spanners in Graphs']
+    'Spanners in Graphs'],
     [
     ['Robert E. Tarjan',
     'http://www.cs.princeton.edu/%7Eret/'
@@ -1121,8 +1122,8 @@ const lecturers = [
     ['http://www.cs.princeton.ed', 'Department of Computer Science'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
-    'Algorithms for MST and Shortest Path in a Graph']
-    ]]
+    'Algorithms for MST and Shortest Path in a Graph'],
+    ]],
     ];
     export default lecturers;
     

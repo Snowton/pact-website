@@ -1,0 +1,117 @@
+.instructors {
+    color: #444444;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /* max-width: 600px; */
+    display: flex;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+
+    /* background-image: linear-gradient(to right, rgba(117, 19, 93, 0.73), black), url("/img/instructors/dr_gandhi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover, cover; */
+}
+
+.instructors .text {
+    /* flex-grow: 1; */
+    /* width: 70%; */
+
+    flex-grow: 2;
+}
+
+.instructors .img {
+    /* width: 30%; */
+    align-self: center;
+    padding-top: 20px;
+    flex-grow: 1;
+    z-index: 1;
+}
+
+.instructors img {
+    /* float: left; */
+    margin: 0 50px 50px 0;
+    width: 300px;
+    /* height: 250px; */
+    border-radius: 15px;
+}
+
+.iframe {
+    position: relative;
+    /* top: 0; */
+}
+
+.instructors iframe {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    bottom: -260px;
+    left: 100px;
+    box-shadow: 0px 0px 5px 0#444444;
+    z-index: 1;
+
+}
+
+/* SEPARATOR */
+
+.separator {
+    position: relative;
+    top: -150px;
+    z-index: 0;
+}
+
+.separator__svg {
+    transform: scale(-1, 1.2);
+    
+}
+
+@media screen and (max-width: 767px) {
+    .separator {
+        bottom: -110px;
+    }
+    .separator__svg {
+        left: -20%;
+        transform: rotate(15deg);
+        width: 140%;
+    }
+}
+
+.separator .background {
+    background-color: rgba(15, 16, 83);
+    height: 115px;
+    width: 100%;
+    position: absolute;
+    top: 440px;
+    display: block;
+    /* z-index: -2; */
+}
+
+/* GUEST LECTURERS */
+
+.guest {
+    /* height: 100vh; */
+    /* background-color: rgba(15, 16, 83, 1); */
+    background-image: linear-gradient(rgba(15, 16, 83, 1), #111111);
+}
+
+.guest {
+    z-index: 3;
+}
+
+.guest h3 {
+    position: relative;
+    top: -150px;
+    font-size: 3rem;
+    margin: 0 60px;
+}
+
+.guest .intro2 {
+    color: #eeeeee;
+    width: 60%;
+    margin: 0 60px;
+    font-size: 1.2rem;
+}
+
+.guest img {
+    height: 100px;
+}

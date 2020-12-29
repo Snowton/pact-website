@@ -5,6 +5,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const ejs = require("ejs")
 import faq from "./FAQ.js"
+import lecturers from "./guest_lecturers.js"
 
 const app = express()
 
@@ -17,7 +18,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/instructors", (req, res) => {
-    res.render("instructors")
+    res.render("instructors", {lecturers: lecturers})
 })
 
 app.get("/program", (req, res) => {
