@@ -6,6 +6,7 @@ const bodyParser = require("body-parser")
 const ejs = require("ejs")
 import faq from "./FAQ.js"
 import lecturers from "./guest_lecturers.js"
+import group_photos from "./group_photos.js"
 
 const app = express()
 
@@ -42,7 +43,7 @@ app.get("/application", (req, res) => {
 })
 
 app.get("/students", (req, res) => {
-    res.render("students")
+    res.render("students", {group_photos, group_photos})
 })
 
 app.listen(3000, (err) => {

@@ -1,0 +1,39 @@
+/* .group_photos ~ .container {
+    padding: none;
+} */
+
+.group_photos {
+    background-image: linear-gradient(rgba(15, 16, 83, 1), #111111);
+    padding: 20px 0;
+}
+
+.group_photos .group {
+    margin: 20px auto;
+    text-align: center;
+    width: 75%;
+}
+
+.group_photos .group h3 {
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.group_photos .group img {
+    width: 100%;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.group_photos .group p {
+    text-align: left;
+    line-height: 1.5rem;
+
+    margin-top: 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.active, .group img:hover {
+    box-shadow: 0 0 15px 7px rgba(166, 167, 202, 0.7);
+}

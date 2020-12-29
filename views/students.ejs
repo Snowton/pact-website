@@ -1,2 +1,21 @@
 <%- include("partials/header") %> 
+
+<header class="gradient">
+    <h1>Students</h1>
+</header>
+
+<!-- <div class="container"> -->
+    <section class="group_photos">
+        <div>
+            <% group_photos.forEach(group => { %> 
+            <div class="group">
+                <h3><%= group[0] %></h3>
+                <img src="/img/group_photos/<%= group[0] %>" alt="">
+                <p><%- group[1] %></p>
+            </div>
+            <% }) %> 
+        </div>
+    </section>
+<!-- </div> -->
+
 <%- include("partials/footer") %> 
