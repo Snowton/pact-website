@@ -1,0 +1,125 @@
+/* --------------------INTRO------------------- */
+
+.home {
+    width: 70%;
+    height: 60vh;
+    background-size: cover;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+
+    --blue: rgb(17, 17, 17); /* rgba(15, 16, 83, 0.9) */
+    --trans-black: rgba(17, 17, 17, 0.4);
+    --trans-blue: rgba(15, 16, 83, 0.7);
+    --trans:  rgba(15, 16, 83, 0);
+
+    --top-bottom: linear-gradient(to bottom, var(--trans-black), var(--trans) 20%, var(--trans) 80%, var(--trans-black));
+
+    --left: linear-gradient(to right, var(--trans), var(--trans-blue) 60%, var(--blue)), var(--top-bottom);
+    --right: linear-gradient(to left, var(--trans), var(--trans-blue) 60%, var(--blue)), var(--top-bottom);
+    margin: 50px 0;
+    padding: 50px;
+}
+
+.home p {
+    width: 70%;
+}
+
+.left {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.right {
+
+    margin-left: auto;
+}
+
+.work {
+    background-image: var(--left), url("/img/home/work.jpg");
+
+}
+
+.chalkboard {
+    background-image: var(--right), url("/img/home/chalkboard.jpg");
+}
+
+.expressions {
+    background-image: var(--left), url("/img/home/expressions.jpg");
+
+}
+
+.lemma {
+    background-image: var(--right), url("/img/home/lemma.jpg");
+}
+
+.fun {
+    background-image: var(--left), url("/img/home/fun.jpg");
+
+}
+
+.college {
+    background-image: var(--right), url("/img/home/college.jpg");
+
+}
+
+.summer {
+    background-image: var(--left), url("/img/home/summer.jpg");
+
+}
+
+/* -------------------QUOTE------------------- */
+
+.quote {
+    background-color: #dddddd;
+    color: #444444;
+    padding: 50px 100px;
+    font-size: 2.5rem;
+}
+
+.quote h3 {
+    margin: 10px;
+}
+
+.quote .pushed {
+    text-align: right;
+}
+
+/* -------------------------END------------------------ */
+
+.modern {
+    position: relative;
+
+    margin: 100px 100px 100px 50px;
+}
+
+.modern img {
+    height: 75vh;
+    width: 75%;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
+
+.modern div {
+    width: 50%;
+    background-image: linear-gradient(rgba(15, 16, 83, 0.7), rgba(15, 16, 83, 0.7));
+    line-height: 1.7rem;
+    padding: 25px;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    font-size: 1rem;
+}
+
+.modern .big {
+    font-size: 2rem;
+}
+
+.requirements {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
