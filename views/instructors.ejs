@@ -50,25 +50,38 @@
 
         <div class="intro2">
             <p>Students in the program also get the exciting opportunity to learn from guest lecturers! Read on to see which lecturers have made great presentations for PACT students.            </p>
+            <div>
+                <% lecturers.forEach(year => { %> 
+                    <a href="#<%= year[0] %>"><%= year[0].substring(year[0].length - 4) %></a>
+                <% }) %> 
+            </div>
         </div>
+
+
 
         <div>
             <% lecturers.forEach(year => { %> 
-            <div>
-                <h4><%= year[0] %></h4>
-                <% year[1].forEach((lecturer, index) => { %> 
-                <div>
-                    <a href="<%= lecturer[0][1] %>">
-                        <img src="/img/instructors/<%= year[0].substring(year[0].length - 4) %>/<%= index %>" alt="">
-                    </a>
-                    <p><%= lecturer[0][0] %></p>
-                    <% lecturer[1].forEach(position => { %> 
-                    <p><%= position %></p>
-                    <% }) %>
-                    <% lecturer[2].forEach(link => { %> 
-                    <p><a href="<%= link[0]%>"><%= link[1] %></a></p>
-                    <% }) %>
-                    <p><%= lecturer[3] %></p>
+            <div id="<%= year[0] %>"></div>
+            <h4><%= year[0] %></h4>
+            <div class="flex">
+                <% year[1].forEach(lecturer => { %> 
+                <div class="bg" style="background-image: radial-gradient(rgba(15, 31, 83, 0), rgba(15, 31, 83, 0.2) 80%, rgba(15, 31, 83, 0.4)), url('/img/instructors/<%= lecturer[0][0] %>')">
+                    <div class="text">
+                        <div>
+                            <p>
+                                <% if(lecturer[0][1]) {%><a href="<%= lecturer[0][1] %>"><%= lecturer[0][0] %></a>
+                                <% } else { %><%= lecturer[0][0] %><% } %> 
+                            </p>
+                            <% lecturer[1].forEach(position => { %> 
+                            <p><%= position %></p>
+                            <% }) %>
+                            <% lecturer[2].forEach(link => { %> 
+                            <p><a href="<%= link[0]%>"><%= link[1] %></a></p>
+                            <% }) %>
+                            <p><%= lecturer[3] %></p>
+
+                        </div>
+                    </div>
                 </div>
                 <% }) %> 
             </div>
