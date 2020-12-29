@@ -31,7 +31,6 @@
 }
 
 .right {
-
     margin-left: auto;
 }
 
@@ -122,4 +121,44 @@
     text-align: center;
     font-size: 1.3rem;
     line-height: 2rem;
+}
+
+/* -------------------MEDIA QUERIES---------------------- */
+
+
+@media only screen and (max-width: 800px) {
+    .home p {
+        font-size: 1.5rem;
+    }
+
+    .quote {
+        font-size: 2rem;
+        padding-left: 0;
+        padding-right: 0;
+        /* text-align: center; */
+    }
+
+    .modern {
+        margin: 0;
+        /* padding: 50px; */
+    }
+
+    .modern img {
+        width: 100%;
+    }
+
+    .modern div {
+        width: 90%;
+        bottom: 0;
+        left: 0;
+        padding: 0 5%;
+    }
+
+    .modern .big {
+        font-size: 1rem;
+    }
+
+    .requirements {
+        font-size: 1.2rem;
+    }
 }
