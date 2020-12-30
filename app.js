@@ -17,11 +17,11 @@ app.use(express.static("public"))
 const root = "https://mighty-beyond-04832.herokuapp.com"
 
 app.get("/", (req, res) => {
-    res.render("home", {url: root + req.url, img: root + "/img/home/" + "work.jpg", title: "PACT"});
+    res.render("home", {url: root + req.url, img: root + "/img/home/" + "college.jpg", title: "PACT"});
 })
 
 app.get("/instructors", (req, res) => {
-    res.render("instructors", {lecturers: lecturers, url: root + req.url, img: root + "/img/home/" + "college.jpg", title: "Instructors | PACT"})
+    res.render("instructors", {lecturers: lecturers, url: root + req.url, img: root + "/img/home/" + "work.jpg", title: "Instructors | PACT"})
 })
 
 app.get("/program", (req, res) => {
