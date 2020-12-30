@@ -46,7 +46,7 @@ app.get("/students", (req, res) => {
     res.render("students", {group_photos, group_photos})
 })
 
-app.listen(3000, (err) => {
+app.listen(process.env.PORT || 3000, (err) => {
     if (!err) console.log("successfully started on port 3000");
     else console.log(err);
 })
