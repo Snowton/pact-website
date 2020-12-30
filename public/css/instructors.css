@@ -52,6 +52,42 @@
 
 }
 
+@media only screen and (max-width: 1000px) {
+    .instructors {
+        /* display: block;
+        position: relative; */
+
+        /* z-index: 1; 
+
+        width: 95%; */
+        margin-bottom: 150px;
+    }
+
+    .instructors .text {
+        /* position: absolute; */
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .instructors .text1 {
+        position: absolute;
+        color: #dddddd;
+
+        width: 190%;
+        padding: 0 15px;
+        background-image: linear-gradient(rgba(15, 16, 83, 0.7), rgba(15, 16, 83, 0.7));
+        top: 75%;
+        left: -90%;
+        z-index: 1;
+        border-radius: 20px;
+    }
+    
+    .instructors iframe {
+        left: 190px;
+        bottom: -245px;
+    }
+}
+
 /* SEPARATOR */
 
 .separator {
@@ -108,9 +144,22 @@
 
 .guest .intro2 {
     color: #dddddd;
-    width: 60%;
+    width: 80%;
     margin: 0 100px;
     font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .guest h3 {
+        margin: 0 70px;
+    }
+
+    .guest .intro2 {
+        font-size: 1.2rem;
+        margin: 0 70px;
+    }
+
 }
 
 .intro2 a {

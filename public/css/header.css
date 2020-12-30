@@ -9,6 +9,10 @@ header {
     font-size: 3rem;
     /* background-image: linear-gradient(black 50%, orange); */
 }
+
+header p {
+  font-size: 2rem;
+}
 /* 
 .grad {
     background-image: linear-gradient(black, orange);
@@ -27,12 +31,21 @@ header {
 } */
 
 
+/* -----------------------MEDIA QUERIES--------------------- */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+  header {
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* @media only screen and (max-width: 600px) {
     img {
         float: none;
     }
-}
+} */
 
 /* COOL GRADIENT TRANSITION */
 
