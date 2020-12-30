@@ -89,6 +89,7 @@
 
 .modern img {
     height: 75vh;
+    min-height: 350px;
     width: 75%;
     object-fit: cover;
     transform: scaleX(-1);
