@@ -170,6 +170,7 @@
         height: 60vh;
         width: 50vh;
         min-width: 200px;
+        max-width: 100%;
         min-height: 250px;
         object-fit: cover;
         padding: 0;
