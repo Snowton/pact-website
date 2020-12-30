@@ -17,7 +17,7 @@ app.use(express.static("public"))
 const root = "https://mighty-beyond-04832.herokuapp.com"
 
 app.get("/", (req, res) => {
-    res.render("home", {url: root + req.url, img: root + "/img/home/" + "work.jpg", title: "PACT"});
+    res.render("home", {url: root + req.url, img: root + "/img/instructors/" + "dr_gandhi.jpg", title: "PACT"});
 })
 
 app.get("/instructors", (req, res) => {
