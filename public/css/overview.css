@@ -85,7 +85,6 @@ strong {
 .years > section > div {
     width: 60%;
     text-align: left;
-    margin: 0 auto;
     padding: 50px;
 }
 
@@ -102,11 +101,40 @@ strong {
 /* -----------------------MEDIA QUERIES--------------------- */
 
 @media only screen and (max-width: 1000px) {
+    .years > section > div {
+        padding: 0;
+    }
+
     .group-i, .year-round, .group-ii, .years > section > div {
         width: 80%;
     }
+}
+
+@media only screen and (max-width: 480px) {
+    .intro {
+        width: 85%;
+        margin: 30px auto;
+    }
+
+    .intro p {
+        width: 100%;
+    }
+
+    .group-i, .year-round, .group-ii, .years > section > div {
+        width: 90%;
+    }
 
     .years > section {
-        padding: 0;
+        padding: 20px;
+    }
+
+    .group-i > div, .year-round > div, .group-ii > div {
+        padding: 0 20px;
+    }
+
+    .group-i, .year-round, .group-ii {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
     }
 }
