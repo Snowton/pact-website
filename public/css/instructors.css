@@ -16,7 +16,7 @@
 .instructors .text {
     /* flex-grow: 1; */
     /* width: 70%; */
-
+    font-size: 0.9rem;
     flex-grow: 2;
 }
 
@@ -71,12 +71,12 @@
 
     .instructors .text1 {
         position: absolute;
-        color: var(--off-white);
+        color: var(--white);
 
         width: 190%;
         padding: 0 15px;
         background-image: linear-gradient(var(--trans-blue), var(--trans-blue));
-        top: 75%;
+        top: 80%;
         left: -90%;
         z-index: 1;
         border-radius: 20px;
@@ -113,7 +113,7 @@
 }
 
 .separator .background {
-    background-color: rgba(15, 16, 83);
+    background-color: var(--actual-blue);
     height: 115px;
     width: 100%;
     position: absolute;
@@ -127,7 +127,7 @@
 .guest {
     /* height: 100vh; */
     /* background-color: rgba(15, 16, 83, 1); */
-    background-image: linear-gradient(rgba(15, 16, 83, 1), var(--black));
+    background-image: linear-gradient(var(--actual-blue), var(--black));
     color: var(--light-grey);
 }
 /* 

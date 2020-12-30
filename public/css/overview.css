@@ -42,17 +42,17 @@ strong {
 
 .group-i {
     background-image: url("/img/overview/group_i.jpg");
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 300px), url('/img/overview/group_i.jpg');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 350px), url('/img/overview/group_i.jpg');
 }
 
 .year-round {
     background-image: url("/img/overview/year_round.jpg");
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 300px), url('/img/overview/year_round.jpg');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 350px), url('/img/overview/year_round.jpg');
 }
 
 .group-ii {
     background-image: url("/img/overview/group_ii.jpg");
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 300px), url('/img/overview/group_ii.jpg');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 350px), url('/img/overview/group_ii.jpg');
 }
 
 .group-i > div, .year-round > div, .group-ii > div {

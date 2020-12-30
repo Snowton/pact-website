@@ -1,19 +1,38 @@
 html, body {
-    --black: rgb(17, 17, 17);
+    --black: #111111;
+    /* #111111 */
     --blue: rgba(15, 16, 83, 0.9);
     --trans-black: rgba(17, 17, 17, 0.4);
     --trans-blue: rgba(15, 16, 83, 0.7);
+    --actual-blue: rgba(15, 16, 83);
     --trans:  rgba(15, 16, 83, 0);
     --off-white: #dddddd;
     --white: #eeeeee;
     --grey: #444444;
     --light-grey: #bbbbbb;
     --super-white: #fcfcfc;
+    --para: 'Open Sans', sans-serif;
+    --h: 'Merriweather', serif;
+    --h1: 'Poppins', sans-serif;
+
+    /* rgba(15, 16, 83, 0.9) */
 
     margin: auto 0;
     color: var(--off-white);
     font-family: sans-serif;
     background-color: var(--black);
+}
+
+h1 {
+    font-family: var(--h1);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--h);
+}
+
+p, a {
+    font-family: var(--para);
 }
 
 /* ---------------NAV--------------- */
