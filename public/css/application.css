@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center; */
     width: 70%;
+    margin: 0 auto;
 }
 
 .intro3 .app {
@@ -27,6 +28,17 @@
     background-image: linear-gradient(to right, rgba(15, 16, 83, 0.3), rgba(15, 16, 83, 0)); */
 }
 
+.intro3 .app a {
+    color: var(--light-grey);
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.intro3 .app a:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
+
 .intro3 .notapp {
     /* max-width: 60%; */
     width: 65%;
@@ -37,17 +49,26 @@
 }
 
 .intro3 .second, .intro3 .third {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-image: linear-gradient(var(--trans-blue),var(--trans-blue));
     color: var(--off-white);
 
-    padding: 50px 17% 50px 15%;
+    padding: 50px 0;
     margin-bottom: 50px;
 }
 
-.second h3, .third h3 {
+.intro3 .second div, .intro3 .third div {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro3 .third div {
+    flex-direction: row-reverse;
+}
+
+.intro3 .second h3, .intro3 .third h3 {
     font-size: 2.5rem;
 
     position: relative;
@@ -109,6 +130,101 @@
 }
 
 .reqs > p {
-    margin-top: 50px;
+    padding: 50px 0;
     text-align: center;
+}
+
+/* -----------------MEDIA QUERIES----------------- */
+
+@media only screen and (max-width: 1000px) {
+    .intro3 {
+        padding: 0;
+    }
+
+    .intro3 div {
+        padding: 0;
+    }
+
+    .intro3 .notapp {
+        width: 100%;
+    }
+
+    .intro3 .app {
+        position: static;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro3 .first {
+        margin: 50px auto;
+        width: 80%;
+    }
+
+    .intro3 .second div, .intro3 .third div {
+        width: 80%;
+        /* font-size: 1.2rem; */
+    }
+
+    .reqs {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .intro3 .second div, .intro3 .third div {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .intro3 .second h3, .intro3 .third h3 {
+        position: static;
+        width: 100%;
+    }
+
+    .intro3 .second p, .intro3 .third p {
+        width: 100%;
+    }
+
+    .intro3 .third p {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .intro3 .first .notapp {
+        font-size: 1.2rem;
+    }
+
+    .intro3 .first .app {
+        font-size: 1.4rem;
+    }
+    
+    .intro3 .second h3, .intro3 .third h3 {
+        font-size: 2rem;
+    }
+
+    .intro3 .second p, .intro3 .third p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .intro3 .first {
+        width: 90%;
+    }
+
+    .intro3 .second div, .intro3 .third div {
+        width: 90%;
+    }
+
+    .reqs .req {
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .intro3 .first .app {
+        font-size: 1.2rem;
+    }
 }

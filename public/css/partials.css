@@ -66,6 +66,8 @@ nav {
     color: var(--light-grey);
     padding: 10px;
     border-radius: 10px;
+
+    transition: all 0.4s;
 }
 
 .nav-item > a:hover {
@@ -127,6 +129,7 @@ nav {
     padding-right: 20px;
     font-size: 1.5rem;
     color: var(--grey);
+    transition: all 0.4s;
 }
 
 /* ------------------FOOTER------------------- */
