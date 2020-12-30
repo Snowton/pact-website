@@ -32,7 +32,7 @@
     transition: max-height 0.2s ease-out;
 }
 
-.active, .group img:hover {
+.group_photos .active, .group_photos .group img:hover {
     box-shadow: 0 0 15px 7px rgba(166, 167, 202, 0.7);
 }
 

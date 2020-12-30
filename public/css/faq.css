@@ -40,7 +40,7 @@
     transition: max-height 0.2s ease-out;
 }
 
-.active, .toggle:hover {
+.faq .active, .faq .toggle:hover {
     background-color: var(--trans-blue);
     /* background-image: linear-gradient(to left, rgba(117, 19, 93, 0.73), #444444); */
     color: var(--off-white);

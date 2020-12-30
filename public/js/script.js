@@ -27,8 +27,19 @@ for (i = 0; i < group_photos.length; i++) {
   });
 }
 
+const ham = document.getElementsByClassName("ham");
+ham[0].addEventListener("click", function() {
+  this.classList.toggle("active");
+  let answer = this.nextElementSibling;
+    if (answer.style.maxHeight) {
+      answer.style.maxHeight = null;
+    } else {
+      answer.style.maxHeight = answer.scrollHeight + "px";
+    }
+})
+
 // const nav_toggle = document.getElementsByClassName("toggle-nav");
-// nav_toggle[0].addEventListener("click", function() => {
+// nav_toggle[0].addEventListener("click", function() {
 //   let answer = this.nextElementSibling;
 //     if (answer.style.maxHeight) {
 //       answer.style.maxHeight = null;

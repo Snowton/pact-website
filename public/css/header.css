@@ -41,6 +41,37 @@ header p {
   }
 }
 
+@media only screen and (max-width: 700px) {
+  header {
+    padding-top: 5vh;
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  header {
+    font-size: 1.2rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
+  }
+}
+
 /* @media only screen and (max-width: 600px) {
     img {
         float: none;
