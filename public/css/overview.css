@@ -84,6 +84,7 @@ strong {
 
 .years > section > div {
     width: 60%;
+    margin: 0 auto;
     text-align: left;
     padding: 50px;
 }
