@@ -1,5 +1,5 @@
 .faq {
-    color: #666666;
+    color: var(--grey);
     padding: 50px;
     width: 800px;
     margin: 0 auto;
@@ -19,7 +19,7 @@
 
 .faq a {
     text-decoration: none;
-    color: #999999;
+    color:var(--light-grey);
 }
 
 .faq h3 {
@@ -41,9 +41,9 @@
 }
 
 .active, .toggle:hover {
-    background-color: rgba(117, 19, 93, 0.73);
+    background-color: var(--trans-blue);
     /* background-image: linear-gradient(to left, rgba(117, 19, 93, 0.73), #444444); */
-    color: #dddddd;
+    color: var(--off-white);
 }
 
 .toggle strong {
@@ -51,7 +51,7 @@
 }
 
 .toggle:hover strong, .active strong {
-    color: #fefefe;
+    color: var(--super-white);
 }
 
 

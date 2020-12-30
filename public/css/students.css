@@ -1,5 +1,5 @@
 .group_photos {
-    background-image: linear-gradient(rgba(15, 16, 83, 1), #111111);
+    background-image: linear-gradient(var(--trans-blue), var(--black));
     padding: 20px 0;
 }
 

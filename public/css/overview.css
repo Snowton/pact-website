@@ -1,7 +1,7 @@
 .intro {
     width: 70%;
     margin: 100px auto;
-    color: #555555;
+    color: var(--grey);
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@
 }
 
 strong {
-    color: #111111;
+    color: var(--black);
 }
 
 .group-i, .year-round, .group-ii {
@@ -31,28 +31,28 @@ strong {
 
     padding: 20px 50px 20px 50px;
 
-    color: #eeeeee;
+    color: var(--white);
     width: 60%;
     margin: 50px auto;
     /* box-shadow: 0 0 200px 0 orange;  */
-    background: #eb01a5;
+    background: var(--blue);
     /* fallback */ 
     background-size: cover;
 }
 
 .group-i {
     background-image: url("/img/overview/group_i.jpg");
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(83, 78, 15, 0.73) 300px), url('/img/overview/group_i.jpg');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 300px), url('/img/overview/group_i.jpg');
 }
 
 .year-round {
     background-image: url("/img/overview/year_round.jpg");
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(21, 83, 15, 0.73) 300px), url('/img/overview/year_round.jpg');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 300px), url('/img/overview/year_round.jpg');
 }
 
 .group-ii {
     background-image: url("/img/overview/group_ii.jpg");
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(15, 16, 83, 0.73) 300px), url('/img/overview/group_ii.jpg');
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 300px), url('/img/overview/group_ii.jpg');
 }
 
 .group-i > div, .year-round > div, .group-ii > div {
@@ -91,12 +91,12 @@ strong {
 
 .years-ii {
     color: #111111;
-    background-image: linear-gradient(to bottom, #fcfcfc, #dddddd);
+    background-image: linear-gradient(to bottom, var(--trans), var(--off-white));
 }
 
 .years-adv {
-    color: #dddddd;
-    background-image: linear-gradient(to bottom, rgba(83, 15, 66, 0.9), #111111);
+    color: var(--off-white);
+    background-image: linear-gradient(to bottom, var(--blue), var(--black));
 }
 
 /* -----------------------MEDIA QUERIES--------------------- */

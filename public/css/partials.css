@@ -1,15 +1,27 @@
 html, body {
+    --black: rgb(17, 17, 17);
+    --blue: rgba(15, 16, 83, 0.9);
+    --trans-black: rgba(17, 17, 17, 0.4);
+    --trans-blue: rgba(15, 16, 83, 0.7);
+    --trans:  rgba(15, 16, 83, 0);
+    --off-white: #dddddd;
+    --white: #eeeeee;
+    --grey: #444444;
+    --light-grey: #bbbbbb;
+    --super-white: #fcfcfc;
+
     margin: auto 0;
-    color: #dddddd;
+    color: var(--off-white);
     font-family: sans-serif;
-    background-color: #111111;
+    background-color: var(--black);
 }
+
 /* ---------------NAV--------------- */
 nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #111111;
+    background-color: var(--black);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,20 +43,20 @@ nav {
 
 .nav-item a {
     text-decoration: none;
-    color: #dddddd;
+    color: var(--off-white);
     padding: 10px;
     border-radius: 10px;
 }
 
 .nav-item > a:hover {
-    color: #eeeeee;
+    color: var(--white);
 }
 
 .logo {
     margin-right: auto;
     text-decoration: none;
     font-size: 1.4rem;
-    color: #dddddd;
+    color:var(--off-white);
     padding: 10px 20px;
 }
 
@@ -56,7 +68,7 @@ nav {
     margin: 5px;
     margin-left: 0;
     padding: 10px 10px 10px 0;
-    background-color: #eeeeee;
+    background-color: var(--white);
     border-radius: 5px;
     
 }
@@ -68,7 +80,7 @@ nav {
 }
 
 .dropdown-toggle:hover > a {
-    color: #eeeeee;
+    color: var(--white);
 }
 
 .dropdown-item {
@@ -84,11 +96,30 @@ nav {
 }
 
 .dropdown-item:hover {
-    background-color: #dddddd;
+    background-color: var(--off-white);
 }
 
 .spacer {
     height: 40px;
+}
+
+/* ----------------HAMBURGER----------------- */
+
+.ham {
+    margin-left: auto;
+    display: none;
+    padding-right: 20px;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+    .navbar {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
 }
 
 /* ------------------FOOTER------------------- */

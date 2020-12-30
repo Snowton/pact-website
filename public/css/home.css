@@ -8,15 +8,10 @@
     display: flex;
     align-items: center;
 
-    --blue: rgb(17, 17, 17); /* rgba(15, 16, 83, 0.9) */
-    --trans-black: rgba(17, 17, 17, 0.4);
-    --trans-blue: rgba(15, 16, 83, 0.7);
-    --trans:  rgba(15, 16, 83, 0);
-
     --top-bottom: linear-gradient(to bottom, var(--trans-black), var(--trans) 20%, var(--trans) 80%, var(--trans-black));
 
-    --left: linear-gradient(to right, var(--trans), var(--trans-blue) 60%, var(--blue)), var(--top-bottom);
-    --right: linear-gradient(to left, var(--trans), var(--trans-blue) 60%, var(--blue)), var(--top-bottom);
+    --left: linear-gradient(to right, var(--trans), var(--trans-blue) 60%, var(--black)), var(--top-bottom);
+    --right: linear-gradient(to left, var(--trans), var(--trans-blue) 60%, var(--black)), var(--top-bottom);
     margin: 50px 0;
     padding: 50px;
 }
@@ -70,8 +65,8 @@
 /* -------------------QUOTE------------------- */
 
 .quote {
-    background-color: #dddddd;
-    color: #444444;
+    background-color: var(--off-white);
+    color: var(--grey);
     padding: 50px 100px;
     font-size: 2.5rem;
 }
@@ -101,7 +96,7 @@
 
 .modern div {
     width: 50%;
-    background-image: linear-gradient(rgba(15, 16, 83, 0.7), rgba(15, 16, 83, 0.7));
+    background-image: linear-gradient(var(--trans-blue), var(--trans-blue));
     line-height: 1.7rem;
     padding: 25px;
     position: absolute;

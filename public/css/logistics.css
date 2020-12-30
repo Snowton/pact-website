@@ -2,7 +2,7 @@
     width: 70%;
     margin: 0 auto;
     display: flex;
-    color: #444444;
+    color: var(--grey);
     flex-wrap: wrap;
     justify-content: center;
     padding: 50px;
@@ -20,5 +20,5 @@
     padding: 50px;
     margin: 10px;
     border-radius: 15px;
-    border: 1px solid #444444;
+    border: 1px solid var(--grey);
 }
