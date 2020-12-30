@@ -90,45 +90,38 @@
 
 /* SEPARATOR */
 
+.sep {
+    background-color: var(--super-white);
+    padding-bottom: 290px;
+}
+
+.dark {
+    background-color: var(--actual-blue);
+    padding: 0;
+}
+
 .separator {
     position: relative;
-    top: -150px;
+    top: -440px;
     z-index: 0;
 }
 
 .separator__svg {
+    
+    /* overflow: hidden; */
     transform: scale(-1, 1.2);
     
 }
 
-@media screen and (max-width: 767px) {
-    .separator {
-        bottom: -110px;
-    }
-    .separator__svg {
-        left: -20%;
-        transform: rotate(15deg);
-        width: 140%;
-    }
-}
-
-.separator .background {
-    background-color: var(--actual-blue);
-    height: 115px;
-    width: 100%;
-    position: absolute;
-    top: 440px;
-    display: block;
-    /* z-index: -2; */
-}
 
 /* GUEST LECTURERS */
 
 .guest {
     /* height: 100vh; */
     /* background-color: rgba(15, 16, 83, 1); */
-    background-image: linear-gradient(var(--actual-blue), var(--black));
+    background-image: linear-gradient(var(--actual-blue), var(--black)); 
     color: var(--light-grey);
+    margin-top: -300px;
 }
 /* 
 .guest {
@@ -161,6 +154,82 @@
     }
 
 }
+
+
+@media screen and (max-width: 800px) {
+    /* .sep {
+        position: relative;
+    } */
+
+    .instructors {
+        display: block;
+        text-align: center;
+    }
+
+    .instructors img {
+        height: 60vh;
+        width: 50vh;
+        min-width: 200px;
+        min-height: 250px;
+        object-fit: cover;
+        padding: 0;
+        margin: 0;
+    }
+
+    .instructors .text {
+        text-align: left;
+    }
+
+    .instructors .text1 {
+        position: static;
+        background: none;
+        width: 100%;
+        padding: 0;
+        color: var(--grey);
+    }
+
+    .instructors iframe {
+        /* position: static; */
+        left: 0;
+        width: 100%;
+        height: 50vh;
+        min-height: 300px;
+        top: 15px;
+    }
+
+    .sep {
+        padding-bottom: 200px;
+    }
+
+    .separator {
+        /* position: absolute; */
+        top: -300px;
+        z-index: 0;
+        /* height: 100px; */
+
+        overflow: hidden;
+        /* height: 150px; */
+
+        /* top: 70px; */
+    }
+    .separator__svg {
+        /* left: -20%; */
+        transform: scaleY(0.5);
+        /* 15deg */
+        /* width: 140%; */
+        
+    }
+
+    .guest {
+        z-index: 2;
+    }
+
+    .guest h3 {
+        position: static;
+        /* padding-top: 125px; */
+    }
+}
+
 
 .intro2 a {
     text-decoration: none;
