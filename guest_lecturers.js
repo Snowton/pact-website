@@ -390,7 +390,7 @@ const lecturers = [
     ],
     [
     ['https://www.umich.edu', 'University of Michigan'],
-    ['https://ioe.engin.umich.edu', 'Industrial &amp; Operations Engineering Department'],
+    ['https://ioe.engin.umich.edu', 'Industrial & Operations Engineering Department'],
     ],
     'Stochastic Optimizations'],
     [
@@ -695,7 +695,7 @@ const lecturers = [
     'Assistant Professor',
     ],
     [
-    ['http://orfe.princeton.edu', 'Operations Research &amp; Financial Engineering'],
+    ['http://orfe.princeton.edu', 'Operations Research & Financial Engineering'],
     ['http://www.princeton.ed', 'Princeton University'],
     ],
     'Fast Search Algorithms'],
@@ -804,7 +804,7 @@ const lecturers = [
     [
     ['http://www.cs.umd.edu', 'Department of Computer Science'],
     ['http://www.umiacs.umd.edu', 'Institute for Advanced Computer Studies'],
-    ['http://www.amsc.umd.edu', 'Applied Mathematics &amp; Statistics, and Scientific Computation Program'],
+    ['http://www.amsc.umd.edu', 'Applied Mathematics & Statistics, and Scientific Computation Program'],
     ['http://www.umd.edu', 'University of Maryland, College Park'],
     ],
     'Lovász Local Lemma'],

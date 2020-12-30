@@ -142,6 +142,101 @@
     font-size: 1.4rem;
 }
 
+
+.intro2 a {
+    text-decoration: none;
+    color: var(--light-grey);
+    padding-right: 20px;
+}
+
+.intro2 a:hover {
+    color: var(--super-white);
+}
+
+/* 
+.guest img {
+    height: 500px;
+    object-fit: cover;
+} */
+
+.guest h4 {
+    font-size: 2rem;
+    padding: 0 40px 0 100px;
+    padding-top: 150px;
+}
+
+.bg .text a {
+    text-decoration: none;
+    color: var(--white);
+    display: block;
+}
+
+.bg .text a:hover {
+    text-decoration: underline;
+    color: var(--super-white);
+}
+
+.guest .flex {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    text-align: center;
+}
+
+.bg {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    font-size: 1rem;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.bg .text {
+    width: 250px;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    /* display: none; */
+    background-image: none;
+    /* padding-bottom: 20px; */
+    padding: 0 20px;
+
+    background-image: linear-gradient(to bottom, rgba(44, 15, 83, 0.9),var(--blue));
+    opacity: 0;
+    transition: all 0.4s;
+
+    border-radius: 15px;
+}
+
+.bg .text div {
+    opacity: 0;
+    /* margin: 20px; */
+    transition: all 0.4;
+}
+
+.bg .text:hover {
+    opacity: 1;
+}
+
+.bg .text:hover div {
+    opacity: 1;
+}
+
+/* -------------MEDIA QUERIES-------------- */
+
+@media only screen and (max-width: 1100px) {
+    .guest .flex {
+        /* margin: 0 70px; */
+    }
+}
+
 @media only screen and (max-width: 1000px) {
 
     .guest h3 {
@@ -153,6 +248,20 @@
         margin: 0 70px;
     }
 
+    .guest h4 {
+        padding: 150px 0 0 0;
+        margin: 0 70px;
+    }
+
+    .bg {
+        height: 200px;
+    }
+
+    .bg .text {
+        font-size: 0.7rem;
+        width: 200px;
+        align-items: center;
+    }
 }
 
 
@@ -228,90 +337,62 @@
     .guest h3 {
         position: static;
         /* padding-top: 125px; */
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .guest .intro2 {
+        margin: 0 auto;
+    }
+
+    .guest .intro2 div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .guest h4 {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
+@media only screen and (max-width: 650px) {
+    .guest .flex {
+        display: block;
+    }
 
-.intro2 a {
-    text-decoration: none;
-    color: var(--light-grey);
-    padding-right: 20px;
+    .bg .text {
+        opacity: 1;
+        margin-left: auto;
+        justify-content: flex-end;
+        width: 45%;
+        background: none;
+    }
+
+    .bg .text div {
+        opacity: 1;
+    }
+
+    .bg {
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: left;
+        text-align: right;
+        border-radius: 0;
+    }
 }
 
-.intro2 a:hover {
-    color: var(--super-white);
-}
+@media only screen and (max-width: 550px) {
+    .bg {
+        height: 50%;
+    }
 
-/* 
-.guest img {
-    height: 500px;
-    object-fit: cover;
-} */
+    .bg .text {
+        align-content: flex-start;
+    }
 
-.guest h4 {
-    font-size: 2rem;
-    padding: 0 40px 0 100px;
-    padding-top: 150px;
-}
-
-.bg .text a {
-    text-decoration: none;
-    color: var(--white);
-    display: block;
-}
-
-.bg .text a:hover {
-    text-decoration: underline;
-    color: var(--super-white);
-}
-
-.guest .flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-around;
-    text-align: center;
-}
-
-.bg {
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    font-size: 1rem;
-    margin: 20px;
-    border-radius: 15px;
-}
-
-.bg .text {
-    width: 250px;
-    height: 100%;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: center;
-    /* display: none; */
-    background-image: none;
-    /* padding-bottom: 20px; */
-    padding: 0 20px;
-
-    background-image: linear-gradient(to bottom, rgba(44, 15, 83, 0.9),var(--blue));
-    opacity: 0;
-    transition: all 0.4s;
-
-    border-radius: 15px;
-}
-
-.bg .text div {
-    opacity: 0;
-    /* margin: 20px; */
-    transition: all 0.4;
-}
-
-.bg .text:hover {
-    opacity: 1;
-}
-
-.bg .text:hover div {
-    opacity: 1;
+    .guest .flex {
+        width: 100%;
+    }
 }
