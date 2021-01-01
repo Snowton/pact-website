@@ -6,13 +6,48 @@
 
 header {
     padding: 25px 15% 50px 15%;
+    margin-bottom: 50px;
     font-size: 3rem;
     /* background-image: linear-gradient(black 50%, orange); */
+}
+
+header h1 {
+  margin-bottom: 0;
 }
 
 header p {
   font-size: 2rem;
 }
+
+.more {
+  font-size: 1rem;
+}
+
+.more p {
+  font-size: 1rem;
+}
+
+.more p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.more a {
+  display: inline-block;
+  background-color: var(--off-white);
+  padding: 7px 10px;
+  text-decoration: none;
+  color: var(--black);
+  box-shadow: none;
+  transition: 0.4s all;
+}
+
+.more a:hover {
+  background-color: var(--light-grey);
+  color: var(--grey);
+  transform: scale(1.1);
+}
+
 /* 
 .grad {
     background-image: linear-gradient(black, orange);
@@ -38,6 +73,7 @@ header p {
     padding: 0;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 100px;
   }
 }
 
@@ -45,6 +81,7 @@ header p {
   header {
     padding-top: 5vh;
     font-size: 2rem;
+    margin-bottom: 80px;
   }
 
   header p {
@@ -55,10 +92,15 @@ header p {
 @media only screen and (max-width: 500px) {
   header {
     font-size: 1.5rem;
+    margin-bottom: 60px;
   }
 
   header p {
     font-size: 1.2rem;
+  }
+
+  header .more, header .more p {
+    font-size: 0.9rem;
   }
 }
 
@@ -69,6 +111,10 @@ header p {
 
   header p {
     font-size: 1.1rem;
+  }
+
+  header .more, header .more p {
+    font-size: 0.8rem;
   }
 }
 
