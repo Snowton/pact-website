@@ -132,6 +132,10 @@ nav {
     transition: all 0.4s;
 }
 
+.ham p {
+    margin: 0;
+}
+
 /* ------------------FOOTER------------------- */
 
 footer {
@@ -140,7 +144,13 @@ footer {
     /* background-color: black; */
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
+    .nav-item a {
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 770px) {
     .navbar {
         display: block;
         width: 100%;

@@ -1,6 +1,6 @@
 .intro {
     width: 70%;
-    margin: 100px auto;
+    margin: 60px auto 100px auto;
     color: var(--grey);
     text-align: center;
     display: flex;

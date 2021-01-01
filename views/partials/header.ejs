@@ -37,31 +37,34 @@
         <a href="/" class="logo">PACT</a>
 
         <div class="nav-item ham">
-            <i class="fas fa-bars"></i>
+            <p>MENU <i class="fas fa-bars"></i></p>
         </div>
         <ul class="navbar">
+            <% nav.forEach(link => { %> 
             <li class="nav-item">
-                <a href="/">Home</a>
+                <a href="/<%= link %>"><%= link.toUpperCase() %></a>
             </li>
-            <li class="nav-item">
-                <a href="/instructors">Instructors</a>
-            </li>
-            <li class="nav-item dropdown-toggle">
-                <!-- <div> -->
+            <% }) %> 
+            <!-- <li class="nav-item"><a href="/program/overview">Overview</a></li>
+            <li class="nav-item"><a href="/program/logistics">Logistics</a></li> -->
+            <!-- <li class="nav-item dropdown-toggle">
                     <a href="/program" class="toggle-nav">Program <i class="fas fa-caret-down"></i></a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-item"><a href="/program/overview">Overview</a></li>
                         <li class="dropdown-item"><a href="/program/logistics">Logistics</a></li>
                         <li class="dropdown-item"><a href="/program/faq">FAQ</a></li>
                     </ul>
-                <!-- </div> -->
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
                 <a href="/application">Application</a>
+            </li>
+            <li class="nav-item"><a href="/program/faq">FAQ</a></li>
+            <li class="nav-item">
+                <a href="/instructors">Instructors</a>
             </li>
             <li class="nav-item">
                 <a href="/students">Students</a>
-            </li>
+            </li> -->
         </ul>
     </nav>
 
