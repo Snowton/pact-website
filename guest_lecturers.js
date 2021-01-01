@@ -1,4 +1,118 @@
 const lecturers = [
+    ['Summer 2020', [
+        [
+            ['Milind Prabhu'],
+            [],
+            [],
+            ''
+        ],
+        [
+            ['Nirmit Joshi'],
+            [],
+            [],
+            ''
+        ],
+        [   
+            ['Vihan Shah', 'https://www.cs.rutgers.edu/people/graduate-students/details/vihan-shah'],
+            ['Grad Student'],
+            [
+                ['https://www.cs.rutgers.edu/', 'Department of Computer Science'],
+                ['https://www.rutgers.edu/', 'Rutgers University']
+            ],
+            ''
+        ],
+        [
+            ['Shreyas Pai', 'https://homepage.cs.uiowa.edu/~spai1/'],
+            ['PhD Student'],
+            [
+                ['http://www.cs.uiowa.edu/', 'Department of Computer Science'],
+                ['http://uiowa.edu/', 'The University of Iowa']
+            ],
+            'Distributed Algorithms, Communication Complexity, Combinatorial Optimization, and Algorithmic Game Theory'
+        ],
+        [
+            ['Samir Khuller', 'https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/khuller-samir.html'],
+            ['Peter and Adrienne Barris Chair of Computer Science', 'Professor of Computer Science'],
+            [
+                ['https://www.mccormick.northwestern.edu/computer-science/', 'Department of Computer Science'],
+                ['https://www.northwestern.edu/', 'Northwestern University']
+            ],
+            'Algorithm design, Combinatorial optimization, Graph theory, Parallel computation'
+        ],
+        [
+            ['David Williamson', 'http://www.davidpwilliamson.net/work/'],
+            ['Professor of Operations Research and Information Engineering'],
+            [
+                ['http://www.orie.cornell.edu/', 'School of Operations Research and Information Engineering'],
+                ['https://www.cornell.edu/', 'Cornell University']
+            ],
+            'Combinatorial Optimization, Approximation Algorithms'
+        ],
+        [
+            ['Sanjeev Khanna', 'https://www.cis.upenn.edu/~sanjeev/'],
+            ['Henry Salvatori Professor of Computer and Information Science'],
+            [
+                ['https://www.cis.upenn.edu/', 'Department of Computer & Information Science'],
+                ['http://www.upenn.edu/', 'University of Pennsylvania']
+            ],
+            'Combinatorial Optimization and Complexity Theory'
+        ],
+        [
+            ['David Shmoys'],
+            ['Laibe/Acheson Professor of Business Management & Leadership Studies'],
+            [
+                ['http://www.orie.cornell.edu/', 'School of Operations Research and Information Engineering'],
+                ['https://www.cornell.edu/', 'Cornell University']
+            ],
+            'Discrete Optimization'
+        ],
+        [
+            ['Chandra Chekuri', 'https://chekuri.cs.illinois.edu/'],
+            ['Paul and Cynthia Saylor Professor'],
+            [
+                ['http://www.cs.illinois.edu/', 'Department of Computer Science'],
+                ['http://www.illinois.edu/', 'University of Illinois, Urbana-Champaign']
+            ],
+            'Discrete and Combinatorial Optimization, Approximation Algorithms, Mathematical Programming, Algorithmic Applications'
+        ],
+        [
+            ['Sanjay Subramanian', 'https://sanjayss34.github.io/'],
+            ['Predoctoral Young Investigator'],
+            [
+                ['https://allenai.org/', 'Allen Institute for Artificial Intelligence']
+            ],
+            'Natural Language Understanding and Machine Learning'
+        ],
+        [
+            ['Ben Edelman', 'https://www.benjaminedelman.com/'],
+            ['PhD student'],
+            [
+                ['https://toc.seas.harvard.edu/', 'Theory of Computation'],
+                ['https://mltheory.org/', 'ML Theory'],
+                ['https://www.harvard.edu/', 'Harvard University']
+            ],
+            'Algorithms, Learning, and Strategic Behavior'
+        ],
+        [
+            ['Sepehr Assadi', 'https://www.cs.rutgers.edu/~sa1497/'],
+            ['Assistant Professor'],
+            [
+                ['https://www.cs.rutgers.edu/', 'Computer Science Department'],
+                ['https://www.rutgers.edu/', 'Rutgers University']
+            ],
+            'Theoretical foundations of big data analysis'
+        ],
+        [
+            ['Jenny Kaufmann', 'http://mathwithinreach.blogspot.com/p/about.html'],
+            ['Grad Student'],
+            [
+                ['https://www.math.harvard.edu/', 'Department of Mathematics'],
+                ['https://www.harvard.edu/', 'Harvard University']
+            ],
+            'Folkman Numbers'
+        ]
+    ]
+    ],
     ['Summer 2019', [
     [
     ['Nishita Jain',
