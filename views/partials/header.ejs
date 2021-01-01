@@ -42,7 +42,7 @@
         <ul class="navbar">
             <% nav.forEach(link => { %> 
             <li class="nav-item">
-                <a href="/<%= link %>"><%= link.toUpperCase() %></a>
+                <a href="/<%= link === "home" ? "" : link %>"><%= link.toUpperCase() %></a>
             </li>
             <% }) %> 
             <!-- <li class="nav-item"><a href="/program/overview">Overview</a></li>
