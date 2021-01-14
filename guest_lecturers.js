@@ -12,8 +12,11 @@ const lecturers = [
         [
             ['Nirmit Joshi'],
             ['Undergraduate'],
-            [],
-            'Sublinear and Streaming Algorithms'
+            [
+                ['https://www.vjti.ac.in/', 'Department of Computer Technology'],
+                ['http://www.vjti.ac.in/index.php/academics/computer-it-ceit-compter-technology', 'Veermata Jijabai Technological Institute']
+            ],
+            'Theoretical Machine Learning'
         ],
         [   
             ['Vihan Shah', 'https://www.cs.rutgers.edu/people/graduate-students/details/vihan-shah'],

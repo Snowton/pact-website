@@ -20,6 +20,12 @@
 .faq a {
     text-decoration: none;
     color:var(--light-grey);
+    transition: 0.4s;
+}
+
+.faq a:hover {
+    color: var(--black);
+    text-decoration: underline;
 }
 
 .faq h3 {
@@ -60,6 +66,10 @@
 @media only screen and (max-width: 1000px) {
     .faq {
         width: 80%;
+    }
+
+    .faq a {
+        text-decoration: underline;
     }
 }
 

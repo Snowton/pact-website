@@ -28,13 +28,13 @@
     background-image: linear-gradient(to right, rgba(15, 16, 83, 0.3), rgba(15, 16, 83, 0)); */
 }
 
-.intro3 .app a {
+.intro3 .app a, .req a {
     color: var(--light-grey);
     text-decoration: none;
     transition: all 0.4s;
 }
 
-.intro3 .app a:hover {
+.intro3 .app a:hover, .req a:hover {
     color: var(--black);
     text-decoration: underline;
 }
