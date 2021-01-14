@@ -5,8 +5,12 @@
 </header>
 
 <!-- <div class="container"> -->
-    <section class="group_photos">
-        <div>
+    <section class="group_stuff">
+        <div class="first">
+            <h3>Group Photos</h3>
+            <p>Click on each photo to see a list of names underneath.</p>
+        </div>
+        <div class="group_photos">
             <% group_photos.forEach(group => { %> 
             <div class="group">
                 <h3><%= group[0] %></h3>

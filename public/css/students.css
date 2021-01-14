@@ -1,3 +1,20 @@
+.group_stuff .first {
+    background-color: var(--white);
+    color: var(--grey);
+    padding: 40px;
+    text-align: center;
+}
+
+.group_stuff .first h3 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.group_stuff .first p {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
 .group_photos {
     background-image: linear-gradient(var(--trans-blue), var(--black));
     padding: 20px 0;
@@ -39,6 +56,14 @@
 /* -----------------------MEDIA QUERIES--------------------- */
 
 @media only screen and (max-width: 1000px) {
+    .group_stuff .first h3 {
+        font-size: 1.5rem;
+    }
+
+    .group_stuff .first p {
+        font-size: 1rem;
+    }
+
     .group_photos .group {
         width: 90%;
     }
@@ -49,6 +74,14 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .group_stuff .first h3 {
+        font-size: 1.2rem;
+    }
+
+    .group_stuff .first p {
+        font-size: 1rem;
+    }
+
     .group_photos .group h3 {
         font-size: 1.5rem;
     }

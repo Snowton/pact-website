@@ -77,11 +77,11 @@
     width: 30%;
 }
 
-.third h3 {
+.intro3 .third h3 {
     text-align: right;
 }
 
-.second p, .third p {
+.intro3 .second p, .third p {
     width: 65%;
 
     font-size: 1.2rem;
