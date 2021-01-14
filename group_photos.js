@@ -41,4 +41,5 @@ const group_photos = [
     ]
 ]
 
-export default group_photos;
+// export default group_photos;
+module.exports = group_photos;

@@ -2,15 +2,18 @@ const lecturers = [
     ['Summer 2020', [
         [
             ['Milind Prabhu'],
-            [],
-            [],
-            ''
+            ['Undergraduate'],
+            [
+                ['https://www.iitg.ac.in/cse/', 'Department of Computer Science and Engineering'],
+                ['https://www.iitg.ac.in', 'Indian Institute of Technology, Guwahati']
+            ],
+            'Sublinear and Streaming Algorithms'
         ],
         [
             ['Nirmit Joshi'],
+            ['Undergraduate'],
             [],
-            [],
-            ''
+            'Sublinear and Streaming Algorithms'
         ],
         [   
             ['Vihan Shah', 'https://www.cs.rutgers.edu/people/graduate-students/details/vihan-shah'],
@@ -19,7 +22,7 @@ const lecturers = [
                 ['https://www.cs.rutgers.edu/', 'Department of Computer Science'],
                 ['https://www.rutgers.edu/', 'Rutgers University']
             ],
-            ''
+            'Sublinear and Streaming Algorithms'
         ],
         [
             ['Shreyas Pai', 'https://homepage.cs.uiowa.edu/~spai1/'],
@@ -95,7 +98,7 @@ const lecturers = [
         ],
         [
             ['Sepehr Assadi', 'https://www.cs.rutgers.edu/~sa1497/'],
-            ['Assistant Professor'],
+            ['Assistant Professor', 'Postdoc'],
             [
                 ['https://www.cs.rutgers.edu/', 'Computer Science Department'],
                 ['https://www.rutgers.edu/', 'Rutgers University']
@@ -1239,5 +1242,6 @@ const lecturers = [
     'Algorithms for MST and Shortest Path in a Graph'],
     ]],
     ];
-    export default lecturers;
-    
+
+// export default lecturers;
+module.exports = lecturers;

@@ -1,12 +1,15 @@
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
+// import { createRequire } from 'module';
+// const require = createRequire(import.meta.url);
 
 const express = require("express")
 const bodyParser = require("body-parser")
 const ejs = require("ejs")
-import faq from "./FAQ.js"
-import lecturers from "./guest_lecturers.js"
-import group_photos from "./group_photos.js"
+// import faq from "./FAQ.js"
+// import lecturers from "./guest_lecturers.js"
+// import group_photos from "./group_photos.js"
+const faq = require("./FAQ.js")
+const lecturers = require("./guest_lecturers.js")
+const group_photos = require("./group_photos.js")
 
 const app = express()
 
