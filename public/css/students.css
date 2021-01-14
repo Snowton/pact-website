@@ -6,7 +6,7 @@
 }
 
 .group_stuff .first h3 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 0;
 }
 
@@ -57,7 +57,7 @@
 
 @media only screen and (max-width: 1000px) {
     .group_stuff .first h3 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .group_stuff .first p {
@@ -75,7 +75,7 @@
 
 @media only screen and (max-width: 500px) {
     .group_stuff .first h3 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .group_stuff .first p {
