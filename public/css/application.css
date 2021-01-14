@@ -29,7 +29,7 @@
 }
 
 .intro3 .app a, .req a {
-    color: var(--light-grey);
+    color: var(--lightish-grey);
     text-decoration: none;
     transition: all 0.4s;
 }
