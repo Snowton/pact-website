@@ -13,8 +13,8 @@ const lecturers = [
             ['Nirmit Joshi'],
             ['Undergraduate'],
             [
-                ['https://www.vjti.ac.in/', 'Department of Computer Technology'],
-                ['http://www.vjti.ac.in/index.php/academics/computer-it-ceit-compter-technology', 'Veermata Jijabai Technological Institute']
+                ['http://www.vjti.ac.in/index.php/academics/computer-it-ceit-compter-technology', 'Department of Computer Technology'],
+                ['https://www.vjti.ac.in/', 'Veermata Jijabai Technological Institute']
             ],
             'Theoretical Machine Learning'
         ],
