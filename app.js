@@ -52,6 +52,31 @@ app.get("/students", (req, res) => {
     res.render("students", {group_photos, group_photos, url: root + req.url, img: root + "/img/home/" + "summer.jpg", title: "Students | PACT", nav: nav})
 })
 
+// OLD URLS
+
+app.get("/registration", (req, res) => {
+    res.redirect("/application")
+})
+
+app.get("/program-organization", (req, res) => {
+    res.redirect("/overview")
+})
+
+app.get("/about-the-instructors", (req, res) => {
+    res.redirect("/instructors")
+})
+
+app.get("/guest-lecturers", (req, res) => {
+    res.redirect("/instructors")
+})
+
+// 404
+
+app.get("*", function(req, res) {
+    res.status(404)
+    res.render("404.ejs", {attempted: req.url, url: root + req.url, img: root + "/img/home/" + "chalkboard.jpg", title: "Page Not Found | PACT", nav: nav})
+})
+
 app.listen(process.env.PORT || 3000, (err) => {
     if (!err) console.log("successfully started on port 3000 or process.env.PORT");
     else console.log(err);

@@ -1,0 +1,9 @@
+.four {
+    min-height: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .four {
+        text-align: center;
+    }
+}

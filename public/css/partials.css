@@ -146,6 +146,8 @@ footer {
     /* background-color: black; */
 }
 
+/* ---------------MEDIA QUERIES----------------- */
+
 @media only screen and (max-width: 900px) {
     .nav-item a {
         padding: 10px 0;
@@ -206,5 +208,9 @@ footer {
         /* background-color: var(--trans-blue); */
         /* background-image: linear-gradient(to left, rgba(117, 19, 93, 0.73), #444444); */
         color: var(--off-white);
+    }
+
+    footer {
+        font-size: 0.9rem;
     }
 }
