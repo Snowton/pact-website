@@ -18,7 +18,8 @@
 }
 
 .intro3 .app {
-    width: 500px;
+    width: 100px;
+    white-space: nowrap;
     font-size: 2rem;
     position: relative;
     /* bottom: -100px; */
