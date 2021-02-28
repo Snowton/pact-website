@@ -88,6 +88,10 @@
     font-size: 1.2rem;
 }
 
+.strikethrough {
+    text-decoration: line-through;
+}
+
 .reqs {
     width: 90%;
 
