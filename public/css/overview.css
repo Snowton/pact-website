@@ -21,7 +21,7 @@
     max-width: 300px;
 }
 
-strong {
+.intro strong {
     color: var(--black);
 }
 
