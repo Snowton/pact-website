@@ -10,7 +10,7 @@ const lecturers = [
         'Natural Language Processing'
     ], [
         ['Aadityan Ganesh', 'https://www.cmi.ac.in/people/student-profile.php?id=aadityanganesh'],
-        ['hi'],
+        ['Undergraduate'],
         [
             ['https://www.cmi.ac.in', 'Chennai Mathematical Institute']
         ],
