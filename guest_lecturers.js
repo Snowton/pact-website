@@ -44,7 +44,7 @@ const lecturers = [
         [
             ['https://www.etoncollege.com', 'Eton College']
         ],
-        'Graph Coloring'
+        'Graph Coloring and Streaming Algorithms'
     ], [   
         ['Vihan Shah', 'https://www.cs.rutgers.edu/people/graduate-students/details/vihan-shah'],
         ['Grad Student'],
