@@ -5,7 +5,7 @@ const lecturers = [
         ['Undergraduate'],
         [
             ['https://www.cs.rutgers.edu/', 'Department of Computer Science'],
-            ['https://www.rutgers.edu', 'Rutgers University']
+            ['https://camden.rutgers.edu/new/', 'Rutgers University -- Camden']
         ],
         'Natural Language Processing'
     ], [
@@ -27,8 +27,8 @@ const lecturers = [
         ['Nirmit Joshi'],
         ['Grad Student'],
         [
-            ['http://www.vjti.ac.in/index.php/academics/computer-it-ceit-compter-technology', 'Department of Computer Technology'],
-            ['https://www.vjti.ac.in/', 'Veermata Jijabai Technological Institute']
+            ['https://theory.cs.northwestern.edu/students/', 'CS Theory Group'],
+            ['https://www.northwestern.edu/', 'Northwestern University']
         ],
         'Theoretical Machine Learning'
     ], [

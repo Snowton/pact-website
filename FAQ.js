@@ -2,9 +2,12 @@ const faq = [
     {
         question: "Which students can participate in the program?",
         answer: "The program is mainly targeted towards high school students, but we do have some college students as well. Any student who is in high school (finished grade 9 by the time the program begins) can apply. In some exceptional cases, we have admitted some younger students, but that is rare."
+    },{
+        question: "Will the program be in-person or virtual for Summer 2022?",
+        answer: 'There will definitely be a virtual option. If COVID regulations allow, we might be able to host a (possibly limited) number of students in-person. In this case, in-person students will have a higher fee.'
     },
     {
-        question: "Where does the program take place?",
+        question: "Where does the program take place, if it is in-person?",
         answer: 'Princeton University, <a href="http://www.cs.princeton.edu/">Computer Science Building</a> (35 Olden Street, Princeton NJ)' // add link //done
     },
     {
@@ -53,7 +56,7 @@ const faq = [
     },
     {
         question: "How much does the program cost to a student?",
-        answer: "The fee for PACT’20 summer program is $1500. We do have limited scholarships available that will be used to support as many students as possible who are admitted but have financial constraints. Students will have to submit justification when requesting financial support."
+        answer: "The fee for PACT’20 summer program is $1700. We do have limited scholarships available that will be used to support as many students as possible who are admitted but have financial constraints. Students will have to submit justification when requesting financial support."
     },
     {
         question: "How is Princeton University involved in this program?",
