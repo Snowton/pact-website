@@ -56,7 +56,7 @@ const faq = [
     },
     {
         question: "How much does the program cost to a student?",
-        answer: "The fee for PACT’20 summer program is $1700. We do have limited scholarships available that will be used to support as many students as possible who are admitted but have financial constraints. Students will have to submit justification when requesting financial support."
+        answer: "The fee for PACT’22 summer program is $1700 ($1825 for international students). We do have limited scholarships available that will be used to support as many students as possible who are admitted but have financial constraints. Students will have to submit justification when requesting financial support."
     },
     {
         question: "How is Princeton University involved in this program?",
