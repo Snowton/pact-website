@@ -33,6 +33,17 @@ header p {
 }
 
 .more a {
+  color: var(--lightish-grey);
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.more a:hover {
+  color: var(--light-grey);
+  text-decoration: underline;
+}
+
+.more .btn-home {
   display: inline-block;
   background-color: var(--off-white);
   padding: 7px 10px;
@@ -42,7 +53,7 @@ header p {
   transition: 0.4s all;
 }
 
-.more a:hover {
+.more .btn-home:hover {
   background-color: var(--light-grey);
   color: var(--grey);
   transform: scale(1.1);
