@@ -13,6 +13,18 @@
     background-size: cover, cover; */
 }
 
+.instructors a {
+    text-decoration: none;
+    color: var(--lightish-grey);
+    transition: 0.4s;
+}
+
+.instructors a:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+
 .instructors .text {
     /* flex-grow: 1; */
     /* width: 70%; */
