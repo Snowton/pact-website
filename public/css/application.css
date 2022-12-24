@@ -57,7 +57,7 @@
     margin-bottom: 50px;
 }
 
-.intro3 .second div, .intro3 .third div {
+.intro3 .second .intro-contain, .intro3 .third .intro-contain {
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -65,7 +65,7 @@
     align-items: center;
 }
 
-.intro3 .third div {
+.intro3 .third .intro-contain {
     flex-direction: row-reverse;
 }
 
@@ -82,7 +82,7 @@
     text-align: right;
 }
 
-.intro3 .second p, .third p {
+.intro3 .second .intro-contain div, .third .intro-contain div {
     width: 65%;
 
     font-size: 1.2rem;
