@@ -60,6 +60,15 @@
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), var(--trans-blue) 350px), url('/img/overview/asia.png');
 }
 
+.asia a {
+    text-decoration: none;
+    color: var(--lightish-grey);
+}
+
+.asia a:hover {
+    color: var(--super-white);
+}
+
 .group-i > div, .year-round > div, .group-ii > div, .asia > div {
     margin-top: 300px;
 }
