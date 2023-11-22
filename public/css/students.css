@@ -32,7 +32,7 @@
 }
 
 .group_photos .group img {
-    width: 100%;
+    max-width: 100%;
     max-height: 75vh;
     object-fit: cover;
     transition: all 0.4s;
