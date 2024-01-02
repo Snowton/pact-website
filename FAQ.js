@@ -3,28 +3,28 @@ const faq = [
         question: "Which students can participate in the program?",
         answer: "The program is mainly targeted towards high school students, but we do have some college students as well. Any student who is in high school (finished grade 9 by the time the program begins) can apply. In some exceptional cases, we have admitted some younger students, but that is rare."
     },{
-        question: "Will the program be in-person or virtual for Summer 2022?",
-        answer: 'There will definitely be a virtual option. If COVID regulations allow, we might be able to host a (possibly limited) number of students in-person. In this case, in-person students will have a higher fee.'
+        question: "Will the program be in-person or virtual?", // "for Summer" + new Date().getFullYear() + "?",
+        answer: 'The program will run in hybrid mode. That is, there will be a virtual component and there will be an in-person component that will be held on the UPenn campus in Philadelphia. The tuition for in-person participation will be higher than the tuition for the virtual component.'
     },
     {
         question: "Where does the program take place, if it is in-person?",
-        answer: 'Princeton University, <a href="http://www.cs.princeton.edu/">Computer Science Building</a> (35 Olden Street, Princeton NJ)' // add link //done
+        answer: "The University of Pennsylvania (UPenn) campus in Philadelphia." // 'Princeton University, <a href="http://www.cs.princeton.edu/">Computer Science Building</a> (35 Olden Street, Princeton NJ)' // add link //done
     },
     {
         question: "Will the university provide accommodations for the students?",
-        answer: "No. The program does not have any ability to provide accommodations for students. Some of our past participants have come from far away places like China, India, UK, S. Korea,  Arizona, California, North Carolina, Texas, and Virginia. They have found a friend/relative to stay with, or a parent has accompanied them and they have found accommodations nearby on their own. Note that students who are minors (under the age of 18 years) must stay with a parent or must stay with an adult whom the parents of the participant have authorized to be the legal guardian of the participant for the duration of the program."
+        answer: "We are trying to get housing for students in the dorms of the UPenn campus. We expect to know for sure about this sometime by the end of February. In-person students can however find their own housing too. Note that students who manage their own housing and who are minors (under the age of 18 years) must stay with a parent or must stay with an adult whom the parents of the participant have authorized to be the legal guardian of the participant for the duration of the program."
     },
-    {
-        question: "How can students commute to the program?",
-        answer: 'For those living in North Jersey, commuting via <a href="http://www.njtransit.com/rg/rg_servlet.srv?hdnPageAction=LineDetailsTo&selLine=NEC">NJ Transit’s North East Corridor Line</a> is probably the best option.  There are many trains that travel from New York to Princeton Junction in the morning.  Upon arriving at Princeton Junction, students can take the Princeton dinky or a substitute bus to arrive at Princeton Station, which is on campus.  It is then a roughly twenty-minute walk to 35 Olden Street.'
-    }, // add link //done
-    {
-        question: "For students who drive where can they park?",
-        answer: "There is visitor parking in lot 21 (off faculty road). There is a shuttle service that one can use or one can walk (about a 5-10 minute walk to the CS building). The C- East Commuter shuttle will drop you off right in front of the CS building. The shuttle comes about every 20 mins. There is an app called “rider” you can use to track the shuttles as well. Directions can be found on the Princeton website. There may also some free parking available on Maple street off Nassau (5-minute walk from the CS building), but I am told that one needs to get in early to find a parking spot."
-    },
+    // {
+    //     question: "How can students commute to the program?",
+    //     answer: 'For those living in North Jersey, commuting via <a href="http://www.njtransit.com/rg/rg_servlet.srv?hdnPageAction=LineDetailsTo&selLine=NEC">NJ Transit’s North East Corridor Line</a> is probably the best option.  There are many trains that travel from New York to Princeton Junction in the morning.  Upon arriving at Princeton Junction, students can take the Princeton dinky or a substitute bus to arrive at Princeton Station, which is on campus.  It is then a roughly twenty-minute walk to 35 Olden Street.'
+    // }, // add link //done
+    // {
+    //     question: "For students who drive where can they park?",
+    //     answer: "There is visitor parking in lot 21 (off faculty road). There is a shuttle service that one can use or one can walk (about a 5-10 minute walk to the CS building). The C- East Commuter shuttle will drop you off right in front of the CS building. The shuttle comes about every 20 mins. There is an app called “rider” you can use to track the shuttles as well. Directions can be found on the Princeton website. There may also some free parking available on Maple street off Nassau (5-minute walk from the CS building), but I am told that one needs to get in early to find a parking spot."
+    // },
     {
         question: "Will lunch be provided?",
-        answer: "No. Students may bring their own lunch, or purchase lunch at the Frist Campus Center."
+        answer: "For in-person students staying in dorms, it is highly likely that we will be able to provide lunch. For students who find their own housing, they may bring their own lunch, or purchase lunch at nearby shops (for example, students usually go to Franklin Table)."
     },
     {
         question: "How much mathematics or computer science are applicants expected to know?",
@@ -54,14 +54,14 @@ const faq = [
         question: "Do the students have to bring laptops?",
         answer: "No. We strongly discourage students from bringing electronic gadgets to the program. If they bring them then they should not use them during the program hours. We hold the right to confiscate electronic gadgets (and not return them), including cell phones if they are used during the program hours."
     },
-    {
-        question: "How much does the program cost to a student?",
-        answer: "The fee for PACT’22 summer program is $1850 ($1950 for international students). We do have limited scholarships available that will be used to support as many students as possible who are admitted but have financial constraints. Students will have to submit justification when requesting financial support."
-    },
-    {
-        question: "How is Princeton University involved in this program?",
-        answer: "Princeton University is in no way involved with this program except that it rents out space to PACT."
-    }
+    // {
+    //     question: "How much does the program cost to a student?",
+    //     answer: "The fee for PACT’22 summer program is $1850 ($1950 for international students). We do have limited scholarships available that will be used to support as many students as possible who are admitted but have financial constraints. Students will have to submit justification when requesting financial support."
+    // },
+    // {
+    //     question: "How is Princeton University involved in this program?",
+    //     answer: "Princeton University is in no way involved with this program except that it rents out space to PACT."
+    // }
 ]
 
 // export default faq;
