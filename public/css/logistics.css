@@ -22,3 +22,12 @@
     border-radius: 15px;
     border: 1px solid var(--grey);
 }
+
+.logs a {
+    text-decoration: none;
+    color: var(--lightish-grey);
+}
+
+.logs a:hover {
+    color: var(--black);
+}
