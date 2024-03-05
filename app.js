@@ -8,6 +8,7 @@ const ejs = require("ejs")
 // import lecturers from "./guest_lecturers.js"
 // import group_photos from "./group_photos.js"
 const faq = require("./FAQ.js")
+const bold_faq = require("./bold_faq.js")
 const lecturers = require("./guest_lecturers.js")
 const group_photos = require("./group_photos.js")
 
@@ -41,7 +42,7 @@ app.get("/logistics", (req, res) => {
 })
 
 app.get("/faq", (req, res) => {
-    res.render("faq", {faq: faq, url: root + req.url, img: root + "/img/home/" + "lemma.jpg", title: "FAQ | PACT", nav: nav})
+    res.render("faq", {faq: faq, bold_faq: bold_faq, url: root + req.url, img: root + "/img/home/" + "lemma.jpg", title: "FAQ | PACT", nav: nav})
 })
 
 app.get("/application", (req, res) => {
