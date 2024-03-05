@@ -11,8 +11,12 @@ const faq = [
         answer: "The University of Pennsylvania (UPenn) campus in Philadelphia." // 'Princeton University, <a href="http://www.cs.princeton.edu/">Computer Science Building</a> (35 Olden Street, Princeton NJ)' // add link //done
     },
     {
-        question: "Will the university provide accommodations for the students?",
-        answer: "We are trying to get housing for students in the dorms of the UPenn campus. We expect to know for sure about this sometime by the end of February. In-person students can however find their own housing too. Note that students who manage their own housing and who are minors (under the age of 18 years) must stay with a parent or must stay with an adult whom the parents of the participant have authorized to be the legal guardian of the participant for the duration of the program."
+        question: "Will accommodations be provided?",
+        answer: "We have a limited number of rooms available in Penn dorms for PACT'24 students. Dorm rooms will be assigned on a first-come first-served basis (in the order in which payments are received). Note that Penn requires that students must have finished grade 9 to stay in Penn dorms over the summer. In-person students can however find their own housing too. Note that students who manage their own housing and who are minors (under the age of 18 years) must stay with a parent or must stay with an adult whom the parents of the participant have authorized to be the legal guardian of the participant for the duration of the program."
+    },
+    {
+        question: "What is the residential fee to stay in Penn dorms?",
+        answer: "The residential fee to stay in Penn dorms for the duration of the program is $6,375."
     },
     // {
     //     question: "How can students commute to the program?",
@@ -22,10 +26,10 @@ const faq = [
     //     question: "For students who drive where can they park?",
     //     answer: "There is visitor parking in lot 21 (off faculty road). There is a shuttle service that one can use or one can walk (about a 5-10 minute walk to the CS building). The C- East Commuter shuttle will drop you off right in front of the CS building. The shuttle comes about every 20 mins. There is an app called “rider” you can use to track the shuttles as well. Directions can be found on the Princeton website. There may also some free parking available on Maple street off Nassau (5-minute walk from the CS building), but I am told that one needs to get in early to find a parking spot."
     // },
-    {
-        question: "Will lunch be provided?",
-        answer: "For in-person students staying in dorms, it is highly likely that we will be able to provide lunch. For students who find their own housing, they may bring their own lunch, or purchase lunch at nearby shops (for example, students usually go to Franklin Table)."
-    },
+    // {
+    //     question: "Will lunch be provided?",
+    //     answer: "For in-person students staying in dorms, it is highly likely that we will be able to provide lunch. For students who find their own housing, they may bring their own lunch, or purchase lunch at nearby shops (for example, students usually go to Franklin Table)."
+    // },
     {
         question: "How much mathematics or computer science are applicants expected to know?",
         answer: "A good understanding of Algebra 1 (or the equivalent) is all that is required. Those who wish to attend should be able to cope with a heavy work load."
