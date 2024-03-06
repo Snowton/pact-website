@@ -7,7 +7,7 @@ const bold = [
         answer: "The residential fee includes: \nHousing, 2-3 meals per day, seven days per week. Students will be responsible for three meals per week.\nEvening activities hosted by the residential staff.\nTransportation and tickets for all off-campus trips (2-3 per week).\nSafety and supervision are provided by world-class residential staff.\nAccess to consult with a medical team 24/7."
         
     }, {
-        question: "3. Where will students be living during the program?",
+        question: "Where will students be living during the program?",
         answer: "Students will live in one of the air-conditioned dormitory-style residence halls on the University of Pennsylvania campus. Students will walk from the residence to the dining halls and then continue walking to their academic building each day. Most dorm rooms are double rooms. Single rooms can be requested for medical/health reasons."
     }, {
         question: "How are roommates assigned?",
