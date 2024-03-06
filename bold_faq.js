@@ -4,7 +4,7 @@ const bold = [
         answer: "PACT has partnered with <a href='https://www.boldsummers.com/'>BOLD Summers</a> to manage the residential component of the PACT program. BOLD Summers has been a vital influence in the summer programs industry since 1982. The BOLD full-time team comprises dedicated professionals who are in the forefront of their respective fields and are motivated by a passion for superior performance and quality service. BOLD Summers manages residential supervision, and evening and weekend activities (including off-campus trips) and ensures all participants have a safe, healthy, and memorable program experience. PACT will continue to manage the academic component of the program and work closely with the BOLD Summers team to provide an exceptional program experience for all."
     }, {
         question: "What is included in the residential fee?",
-        answer: "The residential fee includes: \nHousing, 2-3 meals per day, seven days per week. Students will be responsible for three meals per week.\nEvening activities hosted by the residential staff.\nTransportation and tickets for all off-campus trips (2-3 per week).\nSafety and supervision are provided by world-class residential staff.\nAccess to consult with a medical team 24/7."
+        answer: "The residential fee includes: <br>- Housing, 2-3 meals per day, seven days per week. Students will be responsible for three meals per week.<br>- Evening activities hosted by the residential staff.<br>- Transportation and tickets for all off-campus trips (2-3 per week).<br>- Safety and supervision are provided by world-class residential staff.<br>- Access to consult with a medical team 24/7."
         
     }, {
         question: "Where will students be living during the program?",
@@ -29,7 +29,7 @@ const bold = [
         answer: "Penn’s campus is very safe. The residences are staffed by Penn Security, and our directors and residential advisors are also trained by Penn Public Safety. UPenn has 24/7 Campus Security in place. Only program residents will have access to the dorms and academic spaces."
     }, {
         question: "What will I be doing when not in class?",
-        answer: "Weekends:\nTrips are offered every Saturday (except the first Saturday) to regional destinations such as New York City, The Jersey Shore, Washington, DC, Hershey Park or Six Flags. Sundays are for relaxing and exploring the Philadelphia area. Our trip schedules are somewhat flexible and will be adjusted based on weather and current events in each location.\nEvening Activities:\nBowling, dances, casino night, talent shows, competitions, sports and more – most evenings there is a planned event offered. Sometimes we stay on campus and on other nights we’ll travel to a local venue for an off-campus activity."
+        answer: "- Weekends: Trips are offered every Saturday (except the first Saturday) to regional destinations such as New York City, The Jersey Shore, Washington, DC, Hershey Park or Six Flags. Sundays are for relaxing and exploring the Philadelphia area. Our trip schedules are somewhat flexible and will be adjusted based on weather and current events in each location.<br>- Evening Activities: Bowling, dances, casino night, talent shows, competitions, sports and more – most evenings there is a planned event offered. Sometimes we stay on campus and on other nights we’ll travel to a local venue for an off-campus activity."
     }
 ]
 
