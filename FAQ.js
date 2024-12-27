@@ -7,16 +7,16 @@ const faq = [
         answer: 'The program will run in hybrid mode. That is, there will be a virtual component and there will be an in-person component that will be held on the UPenn campus in Philadelphia. The tuition for in-person participation will be higher than the tuition for the virtual component.'
     },
     {
-        question: "Where does the program take place, if it is in-person?",
+        question: "Where does the in-person program take place?",
         answer: "The University of Pennsylvania (UPenn) campus in Philadelphia." // 'Princeton University, <a href="http://www.cs.princeton.edu/">Computer Science Building</a> (35 Olden Street, Princeton NJ)' // add link //done
     },
     {
         question: "Will accommodations be provided?",
-        answer: "We have a limited number of rooms available in Penn dorms for PACT'24 students. Dorm rooms will be assigned on a first-come first-served basis (in the order in which payments are received). Note that Penn requires that students must have finished grade 9 to stay in Penn dorms over the summer. In-person students can however find their own housing too. Note that students who manage their own housing and who are minors (under the age of 18 years) must stay with a parent or must stay with an adult whom the parents of the participant have authorized to be the legal guardian of the participant for the duration of the program."
+        answer: "We have a limited number of rooms available in Penn dorms for PACT students. Dorm rooms will be assigned on a first-come first-served basis (in the order in which payments are received). Note that Penn requires that students must have finished grade 9 to stay in Penn dorms over the summer. In-person students can however find their own housing too. Note that students who manage their own housing and who are minors (under the age of 18 years) must stay with a parent or must stay with an adult whom the parents of the participant have authorized to be the legal guardian of the participant for the duration of the program."
     },
     {
         question: "What is the residential fee to stay in Penn dorms?",
-        answer: "The residential fee to stay in Penn dorms for the duration of the program is $6,375."
+        answer: "The residential fee to stay in Penn dorms for the duration of the program is $6,295."
     },
     // {
     //     question: "How can students commute to the program?",
