@@ -22,6 +22,9 @@ html, body {
     color: var(--off-white);
     font-family: sans-serif;
     background-color: var(--black);
+
+    --button-size-large: 3.6rem;
+    --button-icon-size-large: 2.4rem;
 }
 
 h1 {

@@ -4,6 +4,8 @@
 const express = require("express")
 const bodyParser = require("body-parser")
 const ejs = require("ejs")
+const path = require("path");
+const fs = require("fs");
 // import faq from "./FAQ.js"
 // import lecturers from "./guest_lecturers.js"
 // import group_photos from "./group_photos.js"
@@ -50,7 +52,26 @@ app.get("/application", (req, res) => {
 })
 
 app.get("/students", (req, res) => {
-    res.render("students", {group_photos, group_photos, url: root + req.url, img: root + "/img/home/" + "summer.jpg", title: "Students | PACT", nav: nav})
+    const baseDir = path.join(__dirname, "public", "img", "group_photos");
+
+    // Suppose you have groups defined like this:
+    const groups = ["2023", "2024", "2025"]; // folder names
+
+    // Build slideshow_photos dynamically
+    const slideshow_photos = group_photos.slideshow_photos.map(groupName => {
+        const dir = path.join(baseDir, groupName);
+        let files = [];
+        try {
+            files = fs.readdirSync(dir)
+                .filter(file => /\.(jpe?g|png|gif|webp)$/i.test(file)); // only images
+        } catch (err) {
+            console.error(`Error reading directory ${dir}:`, err);
+        }
+        return [groupName, files];
+    });
+
+    // res.render("students", {group_photos, group_photos, url: root + req.url, img: root + "/img/home/" + "summer.jpg", title: "Students | PACT", nav: nav})
+    res.render("students", {group_photos, slideshow_photos, url: root + req.url, img: root + "/img/home/" + "summer.jpg", title: "Students | PACT", nav: nav})
 })
 
 // OLD URLS

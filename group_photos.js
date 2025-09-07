@@ -1,3 +1,7 @@
+const slideshow_photos = [
+    "2025",
+]
+
 const group_photos = [
     [
         "2023",
@@ -54,4 +58,8 @@ const group_photos = [
 ]
 
 // export default group_photos;
-module.exports = group_photos;
+//module.exports = group_photos;
+module.exports = {
+    group_photos: group_photos, 
+    slideshow_photos: slideshow_photos
+};

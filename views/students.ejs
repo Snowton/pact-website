@@ -11,7 +11,39 @@
             <p>Click on each photo to see a list of names underneath.</p>
         </div>
         <div class="group_photos">
-            <% group_photos.forEach(group => { %> 
+            <% slideshow_photos.forEach(group => { %> 
+            <div class="group">
+                <h3><%= group[0] %></h3>
+                <div class="frame" data-carousel>
+                    <button class="carousel-button prev" data-carousel-button="prev">
+                        <svg width="20" height="20" viewBox="0 0 20 20">
+                            <path d="M13.5 14.5 9 10l4.5-4.5L12 4l-6 6 6 6 1.5-1.5z"></path>
+                        </svg>
+                    </button>
+                    <div class="slideshow" >
+                        <ul class="slides" data-slides>
+                            <% group[1].forEach((slide, index) => { %> 
+                                <li class="slide" <%= index === 0 ? 'data-active' : '' %>>
+                                    <img src="/img/group_photos/<%= group[0] %>/<%= slide %>" alt="">
+                                </li>
+                            <% }) %> 
+                        </ul>
+                        <div class="navigation" data-dots>
+                            <% group[1].forEach((slide, index) => { %> 
+                                <div class="circle" <%= index === 0 ? 'data-active' : '' %>></div>
+                            <% }) %> 
+                        </div>
+                    </div>
+                    <button class="carousel-button next" data-carousel-button="next">
+                        <svg width="20" height="20" viewBox="0 0 20 20" viewBox="0 0 20 20">
+                            <path d="M6.5 5.5 11 10l-4.5 4.5L8 16l6-6-6-6-1.5 1.5z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <% }) %> 
+
+            <% group_photos.group_photos.forEach(group => { %> 
             <div class="group">
                 <h3><%= group[0] %></h3>
                 <img src="/img/group_photos/<%= group[0] %>" alt="">
