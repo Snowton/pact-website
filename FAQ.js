@@ -58,6 +58,10 @@ const faq = [
         question: "Do the students have to bring laptops?",
         answer: "No. We strongly discourage students from bringing electronic gadgets to the program. If they bring them then they should not use them during the program hours. We hold the right to confiscate electronic gadgets (and not return them), including cell phones if they are used during the program hours."
     },
+    {
+        question: "If I have more questions how do I get them answered?",
+        answer: 'Please email <strong><a href="mailto:summertcs@gmail.com">summertcs@gmail.com</a></strong>'
+    },
     // {
     //     question: "How much does the program cost to a student?",
     //     answer: "The fee for PACT’22 summer program is $1850 ($1950 for international students). We do have limited scholarships available that will be used to support as many students as possible who are admitted but have financial constraints. Students will have to submit justification when requesting financial support."
