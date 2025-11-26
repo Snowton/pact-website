@@ -48,7 +48,7 @@ p, a, ul, li {
     z-index: 10;
     color: var(--black);
     /* color: var(--off-white); */
-    font-size: clamp(0.8rem, 1.4vw, 1.1rem);
+    font-size: clamp(0.8rem, 1.4vw, 1.0rem);
     justify-content: center;
     align-items: center;
     display: flex;
