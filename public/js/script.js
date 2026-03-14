@@ -63,7 +63,8 @@ buttons.forEach(button => {
     const slides =  button.closest("[data-carousel]").querySelector("[data-slides]");
 
     const activeSlide = slides.querySelector("[data-active]");
-    let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+    let currentIndex = [...slides.children].indexOf(activeSlide);
+    let newIndex = currentIndex + offset;
     if (newIndex < 0) newIndex = slides.children.length - 1;
     if (newIndex >= slides.children.length) newIndex = 0;
 
@@ -71,6 +72,9 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active;
 
     updateCurrentDot(slides.children[newIndex]);
+    // if (button.classList.contains("translate-slides")) {
+    //   moveSlidesHorizontally(newIndex - currentIndex, slides);
+    // }
   })
 })
 
@@ -100,6 +104,22 @@ circles.forEach((circle) => {
           delete activeSlide.dataset.active;
 
           updateCurrentDot(slides.children[newIndex]);
+          // if (circle.classList.contains("translate-slides")) {
+          //   moveSlidesHorizontally(newIndex - currentIndex, slides);
+          // }
         }
     })
 })
+
+// Translates slideshow horiztonally depending on the offset between current/new slide
+// function moveSlidesHorizontally(offset, slides) {
+//   const slideWidth = 560 + 15;
+
+//   // Track current horizontal position on the slides element
+//   let currentTranslate = parseInt(slides.dataset.translate || 0, 10);
+
+//   currentTranslate -= offset * slideWidth;
+
+//   slides.style.transform = `translateX(${currentTranslate}px)`;
+//   slides.dataset.translate = currentTranslate;
+// }

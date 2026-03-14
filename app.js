@@ -13,6 +13,7 @@ const faq = require("./FAQ.js")
 const bold_faq = require("./bold_faq.js")
 const lecturers = require("./guest_lecturers.js")
 const group_photos = require("./group_photos.js")
+const testimonials = require("./testimonials.js")
 
 const app = express()
 
@@ -21,7 +22,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static("public"))
 
 const root = "https://mighty-beyond-04832.herokuapp.com"
-const nav = ['home', 'overview', 'logistics', 'application', 'faq', 'instructors', 'students']
+const nav = ['home', 'overview', 'logistics', 'application', 'faq', 'instructors', 'students', 'testimonials']
 
 app.get("/", (req, res) => {
     res.render("home", {url: root + req.url, img: root + "/img/home/" + "college.jpg", title: "PACT", nav: nav});
@@ -54,9 +55,6 @@ app.get("/application", (req, res) => {
 app.get("/students", (req, res) => {
     const baseDir = path.join(__dirname, "public", "img", "group_photos");
 
-    // Suppose you have groups defined like this:
-    const groups = ["2023", "2024", "2025"]; // folder names
-
     // Build slideshow_photos dynamically
     const slideshow_photos = group_photos.slideshow_photos.map(groupName => {
         const dir = path.join(baseDir, groupName);
@@ -73,6 +71,30 @@ app.get("/students", (req, res) => {
     // res.render("students", {group_photos, group_photos, url: root + req.url, img: root + "/img/home/" + "summer.jpg", title: "Students | PACT", nav: nav})
     res.render("students", {group_photos, slideshow_photos, url: root + req.url, img: root + "/img/home/" + "summer.jpg", title: "Students | PACT", nav: nav})
 })
+
+// YOU MIGHT NEED TO CHANGE THE IMAGE
+app.get("/testimonials", (req, res) => {
+    res.render("testimonials", {testimonials: testimonials, url: root + req.url, img: root + "/img/home/" + "lemma.jpg", title: "Testimonials | PACT", nav: nav})
+})
+
+app.get("/testimonials/:slug", (req, res) => {
+    const { slug } = req.params;
+
+    // Find testimonial by slug
+    const testimonial = testimonials.find(t => {
+
+        // Generate slug from name
+        const nameSlug = t.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+        return nameSlug === slug;
+    });
+
+    // Testimonial not found
+    if (!testimonial) {
+        return res.status(404).render("404.ejs", {attempted: req.url, url: root + req.url, img: root + "/img/home/" + "chalkboard.jpg", title: "Page Not Found | PACT", nav: nav});
+    }
+
+    res.render("testimonial-single", {testimonial: testimonial, url: root + req.url, img: root + "/img/home/" + "lemma.jpg", title: `${testimonial.name} | Testimonial | PACT`, nav: nav});
+});
 
 // OLD URLS
 

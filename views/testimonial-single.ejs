@@ -1,0 +1,37 @@
+<%- include("partials/header") %>
+
+<header class="gradient">
+  <h1>Testimonial</h1>
+</header>
+
+<div class="container">
+  <article class="testimonial-single">
+
+    <div class="testimonial-header">
+      <div class="testimonial-photo">
+        <img src="/img/testimonial_photos/<%= testimonial.photo %>" alt="<%= testimonial.name %>">
+      </div>
+
+      <div class="testimonial-meta">
+        <h2 class="testimonial-name"><%= testimonial.name %></h2>
+        <p class="testimonial-title"><%= testimonial.title %></p>
+      </div>
+    </div>
+
+    <div class="testimonial-body">
+      <%- testimonial.full_text %>
+    </div>
+
+    <div class="testimonial-footer">
+      <a href="/testimonials" class="back-link">
+        <svg width="1rem" height="1rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(180deg);">
+          <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span> Back to testimonials</span>
+      </a>
+    </div>
+
+  </article>
+</div>
+
+<%- include("partials/footer") %>

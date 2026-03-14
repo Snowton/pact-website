@@ -120,7 +120,8 @@ nav {
 .nav-item > a {
     text-decoration: none;
     color: var(--light-grey);
-    padding: 10px;
+    /* padding: 10px; */
+    padding: 10px clamp(0px, calc(5.0vw - 45px), 10px);
     border-radius: 10px;
 
     transition: color 0.4s;
@@ -203,13 +204,13 @@ footer {
 
 /* ---------------MEDIA QUERIES----------------- */
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
     .nav-item a {
         padding: 10px 0;
     }
-}
+} */
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 885px) { /* Was 770px */
     .navbar {
         display: block;
         width: 100%;
