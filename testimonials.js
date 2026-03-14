@@ -122,7 +122,7 @@ const testimonies = [
     },
     {
         name: "Tanish Savla",
-        title: "Grade 10, PACT’25 Group II Student",
+        title: "Grade 10, PACT’23 Group I Student",
         photo: "Savla, Tanish (10, CA).jpg",
         snippet: "It doesn't matter if you want to go into something that isn't even related to Computer Science or if you have other interests; the curiosity and problem-solving skills you build in this program will take you extremely far and set you up for success no matter what you end up choosing to pursue.",
         full_text:  `
