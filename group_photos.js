@@ -1,5 +1,6 @@
 const slideshow_photos = [
     "2025",
+    "2024",
 ]
 
 const group_photos = [
