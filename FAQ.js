@@ -16,7 +16,7 @@ const faq = [
     },
     {
         question: "What is the residential fee to stay in Penn dorms?",
-        answer: "The residential fee to stay in Penn dorms for the duration of the program is $6,295."
+        answer: "The residential fee to stay in Penn dorms for the duration of the program is $6,500."
     },
     // {
     //     question: "How can students commute to the program?",
@@ -48,7 +48,7 @@ const faq = [
     },
     {
         question: "Do students have to be present on days when there are no lectures?",
-        answer: "Yes. The students will have plenty of work to do and we expect them to come to the program venue and work on assigned problem sets. In the rare event that they are done with all of the assigned work, they should talk to Dr. Gandhi and he will assign them more work. Note that failure to not attend each day of the program (unless prior approval is taken from Dr. Gandhi) may result in termination of the student’s participation in the program."
+        answer: "Yes. The students will have plenty of work to do and we expect them to come to the program venue and work on assigned problem sets. In the rare event that they are done with all of the assigned work, they should talk to Dr. Gandhi and he will assign them more work."
     },
     {
         question: "What should applicants expect from this program?",

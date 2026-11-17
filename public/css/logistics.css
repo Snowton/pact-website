@@ -31,3 +31,7 @@
 .logs a:hover {
     color: var(--black);
 }
+
+.logs li {
+    list-style-type: none;
+}
